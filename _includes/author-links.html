@@ -22,7 +22,7 @@
     {%- include snippets/get-locale-string.html key='EMAIL_ME' -%}
     {%- if _author.email -%}
       <li title="{{ _locale_string_email }}">
-      <a class="button button--circle mail-button" itemprop="email" href="mailto:{{ _author.email }}" target="_blank">
+      <a class="button button--circle github-button" itemprop="email" href="mailto:{{ _author.email }}" target="_blank">
         <i class="fas fa-envelope"></i>
       </a>
     {%- endif -%}
@@ -101,11 +101,19 @@
     {%- endif -%}
 
     {%- if _author.github -%}
-      <li title="{{ _locale_string_follow | replace: '[NAME]', 'Github' }}">
-        <a class="button button--circle github-button" itemprop="sameAs" href="https://github.com/{{ _author.github }}" target="_blank">
-          <div class="icon">{%- include svg/icon/social/github.svg -%}</div>
-        </a>
-      </li>
+    <li title="{{ _locale_string_follow | replace: '[NAME]', 'Github' }}">
+      <a class="button button--circle github-button" itemprop="sameAs" href="https://github.com/{{ _author.github }}" target="_blank">
+        <div class="icon">{%- include svg/icon/social/github.svg -%}</div>
+      </a>
+    </li>
+    {%- endif -%}
+    
+    {%- if _author.artstation -%}
+    <li title="{{ _locale_string_follow | replace: '[NAME]', 'Artstation' }}">
+      <a class="button button--circle github-button" itemprop="sameAs" href="https://artstation.com/{{ _author.artstation }}" target="_blank">
+        <div class="icon">{%- include svg/icon/social/artstation.svg -%}</div>
+      </a>
+    </li>
     {%- endif -%}
 
     {%- if _author.npm -%}
