@@ -181,6 +181,7 @@ layout: base
         {%- if _full_width == false -%}
           <div class ="main">
         {%- endif -%}
+          {%- if _footer != false -%}
             <div class="grid grid--reverse">
 
               <div class="col-aside d-print-none js-col-aside">
@@ -217,6 +218,7 @@ layout: base
                 {%- include main/bottom/custom.html -%}
               </div>
             </div>
+          {%- endif -%}
 
         {%- if _full_width == false -%}
           </div>
