@@ -1,11 +1,19 @@
 header:
   - titles:
-      en      : &EN       Archive
+      en      : &EN       Projects
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-    url: /archive.html
+    url: /projects.html
+
+  - titles:
+      en      : &EN       Teaching
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+    url: /teaching.html    
 
   - titles:
       en      : &EN       About
