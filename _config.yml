@@ -195,11 +195,9 @@ collections:
   docs:
     output: true
   # Need to define the folder with md files that'll become a set of articles
-  sample_page:
+  projects_page:
     output: true
-  sample_articles:
-    output: true
-  sample_languages:
+  teaching_page:
     output: true
 
 defaults:
@@ -218,10 +216,24 @@ defaults:
   # Need to set this up
   - scope:
       path: ""
-      type: sample_page
+      type: projects_page
     values:
       layout: article
-      nav_key: samples
+      # nav_key: samples
+      sharing: true
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: false
+      show_subscribe: true
+      pageview: true
+  # Need to set this up
+  - scope:
+      path: ""
+      type: teaching_page
+    values:
+      layout: article
+      # nav_key: samples
       sharing: true
       license: true
       aside:
