@@ -151,7 +151,7 @@ pageview:
 ## => Search
 ##############################
 search:
-  provider: default # "default" (default), false, "google", "custom"
+  provider: false # "default" (default), false, "google", "custom"
 
   ## Google Custom Search Engine
   google:
@@ -201,18 +201,18 @@ collections:
     output: true
 
 defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: article
-      sharing: true
-      license: true
-      aside:
-        toc: true
-      show_edit_on_github: false
-      show_subscribe: true
-      pageview: true
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: article
+  #     sharing: false
+  #     license: true
+  #     aside:
+  #       toc: true
+  #     show_edit_on_github: false
+  #     show_subscribe: true
+  #     pageview: true
   # Need to set this up
   - scope:
       path: ""
@@ -220,12 +220,12 @@ defaults:
     values:
       layout: article
       # nav_key: samples
-      sharing: true
-      license: true
+      sharing: false
+      license: false
       aside:
         toc: true
       show_edit_on_github: false
-      show_subscribe: true
+      show_subscribe: false
       pageview: true
   # Need to set this up
   - scope:
@@ -234,12 +234,12 @@ defaults:
     values:
       layout: article
       # nav_key: samples
-      sharing: true
-      license: true
+      sharing: false
+      license: false
       aside:
         toc: true
       show_edit_on_github: false
-      show_subscribe: true
+      show_subscribe: false
       pageview: true
 
 ## => Plugins
