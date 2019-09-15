@@ -1,6 +1,9 @@
 ---
+layout: article
 title: projectTest2
-tags: TeXt
+cover: /assets/images/axure/page-aside.jpg
+aside:
+  toc: true
 ---
 
 If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost:
