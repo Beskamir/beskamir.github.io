@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Intro to Computer Graphics Coursework
+key: 20171127
 # tags: TeXt
 cover: https://cdna.artstation.com/p/assets/images/images/014/259/400/large/sebastian-kopacz-custom.jpg?1543234486
 aside:
@@ -11,7 +12,7 @@ aside:
 #     src: /assets/images/cover1.jpg
 ---
 
-Collection of the 4 assignments I completed for the _Intro to Computer Graphics_ course (cpsc 453 at uofc) I took in Fall 2017.
+Collection of the 4 assignments I completed for the _Intro to Computer Graphics_ course (cpsc 453 at UofC) I took in fall 2017.
 
 <!--more-->
 
