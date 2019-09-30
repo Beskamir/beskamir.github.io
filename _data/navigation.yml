@@ -5,7 +5,7 @@ header:
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-    url: /projects.html
+    url: /projects
 
   - titles:
       en      : &EN       Teaching
@@ -13,7 +13,7 @@ header:
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-    url: /teaching.html    
+    url: /teaching
 
   - titles:
       en      : &EN       About
@@ -21,4 +21,4 @@ header:
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-    url: /about.html
+    url: /about
