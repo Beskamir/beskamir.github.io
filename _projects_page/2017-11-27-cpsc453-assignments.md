@@ -12,7 +12,7 @@ aside:
 #     src: /assets/images/cover1.jpg
 ---
 
-Collection of the 4 assignments I completed for the _Intro to Computer Graphics_ course (cpsc 453 at the University of Calgary) I took in fall 2017.
+Collection of the 4 assignments I completed for the _Intro to Computer Graphics_ course (Computer Science 453 at the University of Calgary) I took in fall 2017.
 
 <!--more-->
 
