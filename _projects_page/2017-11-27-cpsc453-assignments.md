@@ -12,12 +12,17 @@ aside:
 #     src: /assets/images/cover1.jpg
 ---
 
-Collection of the 4 assignments I completed for the _Intro to Computer Graphics_ course (cpsc 453 at UofC) I took in fall 2017.
+Collection of the 4 assignments I completed for the _Intro to Computer Graphics_ course (cpsc 453 at the University of Calgary) I took in fall 2017.
 
 <!--more-->
 
-- [ArtStation](https://www.artstation.com/beskamir/albums/1146636)
+##### Links to additional pictures on my ArtStation:
+- [Hilbert curve in OpenGL](https://www.artstation.com/artwork/0X3kOV)
+- [Image manipulation in OpenGL](https://www.artstation.com/artwork/oO2m2z)
+- [Basic 3D model viewer in OpenGL](https://www.artstation.com/artwork/Vdy9P5)
+- [Whitted ray tracer](https://www.artstation.com/artwork/nQEy0X)
 
+##### Link to source code for all of these assignments:
 - [GitHub](https://github.com/Beskamir/Intro-to-Computer-Graphics)
 
 ---
