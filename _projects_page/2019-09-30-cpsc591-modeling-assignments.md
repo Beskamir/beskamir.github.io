@@ -3,7 +3,7 @@ layout: article
 title: Computer Graphics Modeling Assignments
 key: 20190930
 permalink: /projects/modeling-project
-cover: https://cdnb.artstation.com/p/assets/images/images/017/564/095/large/sebastian-kopacz-template-2019-04-28-20-12-27.jpg?1556505732
+# cover: https://cdnb.artstation.com/p/assets/images/images/017/564/095/large/sebastian-kopacz-template-2019-04-28-20-12-27.jpg?1556505732
 aside:
   toc: true
 # article_header:
@@ -50,8 +50,6 @@ Collection of assignments I did well on for the _modeling_ course (Computer Scie
 <img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="400" />
 <img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="400" /> -->
 
-
-<!-- todo: add graph showing performance -->
 
 ### Credits:
 - [OpenGL Template/Boilerplate as provided by Mia MacTavish (the TA for the course)](https://pages.cpsc.ucalgary.ca/~mmactavi/589/)
