@@ -12,7 +12,7 @@ article_header:
     src: /assets/images/Projects/Karsio/2019-10-05_23-11-04.png
 ---
 
-Group course project for the _Games Programming_ course (Computer Science 585 at the University of Calgary) I took in winter 2018 and where I worked in a team of 4 to build an engine and game.
+Group course project for the _Games Programming_ course (Computer Science 585 at the University of Calgary) I took in winter 2018 and where I worked in a team of 4 (Ben, Rukiya, Brian, and myself) to build a game engine and the game itself.
 
 <!--more-->
 
@@ -98,6 +98,9 @@ Battle royal driving game blended with [slither.io](http://slither.io/)'s growth
 # Ingame Footage:
 
 ## Video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cg6CkGn4yRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+For some reason audio wasn't recorded (and it may be copyrighted anyway) so for the full effect, get the game on GitHub and compile it yourself.
 
 ## Screenshots: 
 <img src="/assets/images/Projects/Karsio/2019-10-05_23-11-04.png" width="800" />
