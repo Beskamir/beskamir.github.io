@@ -55,9 +55,13 @@ Battle royal driving game blended with [slither.io](http://slither.io/)'s growth
 ## Features:
 - Upgrade system.
   - Chassis
+    - Unlocks higher level upgrades but makes you larger and slows you down.
   - Weapon
+    - More damage or faster firing rate depending on upgrade.
   - Armor
-  - Ramming
+    - Take less damage when hit.
+  - Ram
+    - Deal more damage when ramming your enemies.
 - Resource crystals.
   - Blue crystals needed for upgrades.
   - Red crystals restore health.
