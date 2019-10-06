@@ -12,7 +12,7 @@ article_header:
     src: /assets/images/Projects/Karsio/2019-10-05_23-11-04.png
 ---
 
-Group course project for the _Games Programming_ course (Computer Science 585 at the University of Calgary) I took in winter 2018 and where I worked in a team of 4 (Ben, Rukiya, Brian, and myself) to build a game engine and the game itself.
+Group course project for the _Games Programming_ course (Computer Science 585 at the University of Calgary) I took in winter 2018 and where I worked in a team of 4 (Ben, Rukiya, Brian, and myself) to build a game engine and of course the game itself.
 
 <!--more-->
 
