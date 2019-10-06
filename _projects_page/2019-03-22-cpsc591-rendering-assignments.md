@@ -39,7 +39,13 @@ Collection of assignments I did well on for the _Rendering_ course (Computer Sci
 #### Base PBRT render before I started adding models: 
 <img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="800" />
 
-<!-- todo: add graph showing performance -->
+#### Example of the objects I added to the scene:
+<img src="/assets/images/Projects/Rendering/Assignments/ExampleModel.png" width="800" />
+<img src="/assets/images/Projects/Rendering/Assignments/ExampleObjects.png" width="800" />
+
+#### Graph comparing render times as I added objects to the scene:
+<img src="/assets/images/Projects/Rendering/Assignments/Graph-2019-10-06_01-00-40.png" width="800" />
+Increase in render time as the number of test objects in the scene increases. Both time increases are clearly logarithmic as they barely increase while the 𝑥-axis is exponential. Which matches the literature time complexity (𝑂(log(𝑛)) for BVH and KD Trees. Rendered using an AMD Threadripper 1950x.
 
 ### Credits:
 - [PBRT library](https://github.com/mmp/pbrt-v3) and the corresponding documentation. 
@@ -74,7 +80,21 @@ Collection of assignments I did well on for the _Rendering_ course (Computer Sci
 ---
 ## Assignment 3: Sampling
 
-PBRT has a bug where it will sample a half disk the same as a full disk, our task was to fix this by changing the samples so that it would be from just the half disk rather than the entire disk. Unfortunately I used rejection sampling instead of properly transforming the samples to be uniformly spaced on the disk. As such my implementation was incorrect and not particularly nice visually. As such I won't be including pictures of it here.
+PBRT has a bug where it will sample a half disk the same as a full disk, our task was to fix this by changing the samples so that it would be from just the half disk rather than the entire disk. Unfortunately I used rejection sampling instead of properly transforming the samples to be uniformly spaced on the disk. As such my implementation was incorrect and visually unimpressive.
+
+### Features:
+- Uses rejection sampling to ignore invalid rays.
+
+#### The issue: 
+<img src="/assets/images/Projects/Rendering/Assignments/Ring360-old.png" width="800" />
+
+#### My horrible fix (note how the brightness decreases due to rejection sampling): 
+<img src="/assets/images/Projects/Rendering/Assignments/Ring360.png" width="800" />
+<img src="/assets/images/Projects/Rendering/Assignments/Ring180.png" width="800" />
+<img src="/assets/images/Projects/Rendering/Assignments/Disk270.png" width="800" />
+
+### Credits:
+- [PBRT library](https://github.com/mmp/pbrt-v3) and the corresponding documentation. 
 
 ---
 ## Assignment 4: Deferred
