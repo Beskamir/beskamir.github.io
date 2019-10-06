@@ -22,7 +22,7 @@ Simple Python script to notify me when Top Hat question are up so I could skip h
 
 ---
 
-## Features
+# Features
  - Works with multiple Top Hat courses.
  - Plays notification sound (notifySound.wav).
  - Prints notification to console.
@@ -30,18 +30,18 @@ Simple Python script to notify me when Top Hat question are up so I could skip h
 
 ---
 
-## Setup and Install
+# Setup and Install
 
-### Clone the repository
+## Clone the repository
     git clone https://github.com/Beskamir/TopHatNotify
 
-### Setup your config.ini file
+## Setup your config.ini file
  - Rename `sampleConfig.ini` to `config.ini` 
  - Fill it with:
    - Your Top Hat credentials.
    - The Top Hat urls you want it to check.
 
-### Install the necessary libraries 
+## Install the necessary libraries 
 (some of these should be installed by default but I'll list them anyway)
 
     pip install selenium
@@ -53,23 +53,23 @@ Simple Python script to notify me when Top Hat question are up so I could skip h
     pip install json
     pip install os
 
-### Run the Python file
+## Run the Python file
     py -3 .\Notify.py
 
 ---
 
-## Platform/Python Requirments
+# Platform/Python Requirments
  - Developed and tested on Windows 10.
  - Should be cross-platform except for win10toast.
    - Use a different library or disable that feature if you're not on windows.
  - Uses Python 3 but it might be compatible with Python 2.
 
-## Known issues
+# Known issues
  - Might have some false positives or worse negatives.
  - Might crash every so often.
  - Basically works about 95% of the time! (Which for me that was more than good enough)
 
-## Nice to have features 
+# Nice to have features 
 (that I don't care enough to implement so they're left as an exercise to the user)
  - Different notification sound for first message vs reminders
  - Time stamp the notifications when printing them to the console

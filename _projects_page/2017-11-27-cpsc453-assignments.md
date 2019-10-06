@@ -6,10 +6,10 @@ permalink: /projects/Intro-to-Graphics
 cover: https://cdna.artstation.com/p/assets/images/images/014/259/400/large/sebastian-kopacz-custom.jpg?1543234486
 aside:
   toc: true
-# article_header:
-#   type: cover
-#   image:
-#     src: /assets/images/cover1.jpg
+article_header:
+  type: cover
+  image:
+    src: https://cdnb.artstation.com/p/assets/images/images/014/257/445/large/sebastian-kopacz-chessboard02.jpg?1543227840
 ---
 
 Collection of the 4 assignments I completed for the _Intro to Computer Graphics_ course (Computer Science 453 at the University of Calgary) I took in fall 2017.
@@ -26,81 +26,80 @@ Collection of the 4 assignments I completed for the _Intro to Computer Graphics_
 - [GitHub](https://github.com/Beskamir/Intro-to-Computer-Graphics)
 
 ---
-## Assignment 1: Hilbert Curve  
+# Hilbert Curve  
 
-### Features: 
+## Features: 
 - Rendering done with OpenGL.
 - Draws first to tenth order Hilbert Curves using OpenGL's lines as well as by using thin triangles.
 
-#### Multi-colored 7th order Hilbert Curve using thin triangles for the lines: 
+### 7th order Hilbert Curve:
 <img src="https://cdnb.artstation.com/p/assets/images/images/014/276/469/large/sebastian-kopacz-assignment1-2018-11-26-23-06-56.jpg?1543298910" width="800" />
 
-### Credits:
+## Credits:
 - Regarding the software implementation the following resources were invaluable: 
-   - For understanding OpenGL: https://learnopengl.com
-   - For input: http://www.glfw.org/docs/latest/input_guide.html
-   - For the window: http://www.glfw.org/docs/latest/window_guide.html
+   - [LearnOpenGL](https://learnopengl.com) for figuring out OpenGL. 
+   - [GLFW documentation](https://www.glfw.org/docs/latest/) for figuring out the window and input.
 
 ---
-## Assignment 2: Image Manipulation  
+# Image Manipulation  
 
-### Features: 
+## Features: 
 - Rendering done with OpenGL.
 - Draw multi-colored Catmull-Rom curves and loops.
 - Apply image filters (grayscale and 2-bit quantization).
+- Grayscale filter uses NTSC conversion weights.
 - Move and scale the image.
 
 
-#### Multi-colored Catmull-Rom spline drawing and 2-bit image quantization: 
+### All effects active: 
 <img src="https://cdnb.artstation.com/p/assets/images/images/014/257/939/large/sebastian-kopacz-bonusimage.jpg?1543232178" width="800" />
 
-#### Original image by nexus user realdreadstar (check credits section): 
+### Original image: 
 <img src="https://cdnb.artstation.com/p/assets/images/images/014/258/571/large/sebastian-kopacz-tower.jpg?1543231507" width="800" />
 
-#### Grayscale filter uses NTSC conversion weights: 
+### Grayscale: 
 <img src="https://cdnb.artstation.com/p/assets/images/images/014/258/845/large/sebastian-kopacz-greyscale.jpg?1543232531" width="800" />
 
-#### 2-bit image quantization: 
+### 2-bit image quantization: 
 <img src="https://cdnb.artstation.com/p/assets/images/images/014/276/275/large/sebastian-kopacz-2bit.jpg?1543297907" width="800" />
 
 
-### Credits:
+## Credits:
 - Original image is by realdreadstar/Natty Dread and he made it by setting up a custom scene in The Witcher 3 and taking a screenshot of it.
     - [Link to realdreadstar's version on the Nexus](https://www.nexusmods.com/witcher3/images/1239)
     - [Link to Natty Dread's version on Flickr](https://www.flickr.com/photos/90866390@N06/17649150394/in/dateposted-public/)
   - Regarding the software implementation the following resources were invaluable: 
-   - For understanding OpenGL: https://learnopengl.com
-   - For input: http://www.glfw.org/docs/latest/input_guide.html
-   - For the window: http://www.glfw.org/docs/latest/window_guide.html
-   - Lines drawn using: https://vicrucann.github.io/tutorials/osg-shader-3dlines/
+   - [LearnOpenGL](https://learnopengl.com) for figuring out OpenGL. 
+   - [GLFW documentation](https://www.glfw.org/docs/latest/) for figuring out the window and input.
+   - Lines drawn using [Victoria Rudakova's tutorial](https://vicrucann.github.io/tutorials/osg-shader-3dlines/).
 
 ---
-## Assignment 3: Model Viewer and Basic Editor
+# Model Viewer and Editor
 
 
-### Features:
+## Features:
 - Rendering done with OpenGL.
 - Models can be selected by mouse clicking on them.
 - Selected models can be modified by rotating, scaling, translating, duplicating, or turning various textures on or off.
+  - Powerful enough to build the demo scene by hand.
 - Supports basic OBJ features and models/textures can be imported with a config file or command-line arguments.
 - Phong lighting model using diffuse, specular and ambient occlusion textures.
   
-#### Scene was built in engine using the model transformation tools I implemented:
+### Scene demoing model viewer:
 <img src="https://cdnb.artstation.com/p/assets/images/images/014/257/445/large/sebastian-kopacz-chessboard02.jpg?1543227840" width="800" /> <img src="https://cdna.artstation.com/p/assets/images/images/014/257/446/large/sebastian-kopacz-chessboard.jpg?1543226413" width="800" />
 
   
-### Credits:
+## Credits:
 - All models and textures shown in the image were provided to us by the TA as part of the course.
 - Regarding the software implementation the following resources were invaluable: 
-   - For understanding OpenGL: https://learnopengl.com
-   - For input: http://www.glfw.org/docs/latest/input_guide.html
-   - For the window: http://www.glfw.org/docs/latest/window_guide.html
-   - For being able to select models by clicking on them: https://en.wikibooks.org/wiki/OpenGL_Programming/Object_selection
+   - [LearnOpenGL](https://learnopengl.com) for figuring out OpenGL. 
+   - [GLFW documentation](https://www.glfw.org/docs/latest/) for figuring out the window and input.
+   - [Object selection](https://en.wikibooks.org/wiki/OpenGL_Programming/Object_selection) for figuring out how select objects by clicking on them.
 
 ---
-## Assignment 4: Whitted Ray Tracer
+# Whitted Ray Tracer
   
-### Features:
+## Features:
 - CPU only and thus does not make use of OpenGL in any way.
 - Ray intersection test for spheres and triangles.
 - Functional shadow, reflection, refraction, and diffuse bounces.
@@ -109,14 +108,14 @@ Collection of the 4 assignments I completed for the _Intro to Computer Graphics_
 - Directional and point lights.
 - Supports basic OBJ features and models can be loaded with a config file.
   
-#### My custom scene: 
+### My custom scene: 
 <img src="https://cdna.artstation.com/p/assets/images/images/014/259/400/large/sebastian-kopacz-custom.jpg?1543234486" width="800" />
 
-#### Default Cornell box: 
+### Default Cornell box: 
 <img src="https://cdnb.artstation.com/p/assets/images/images/014/259/407/large/sebastian-kopacz-default.jpg?1543234451" width="800" />
 
-### Credits:
+## Credits:
 - All models either made by me or specified in the assignment description.
-- Most of the ray tracer code was based on https://www.scratchapixel.com 
+- Most of the ray tracer code was based on [Scratchapixel](https://www.scratchapixel.com/).
 
 ---

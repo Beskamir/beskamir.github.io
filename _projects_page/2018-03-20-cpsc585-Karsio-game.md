@@ -24,6 +24,8 @@ Group course project for the _Games Programming_ course (Computer Science 585 at
 
 [Link to source code](https://github.com/Beskamir/KarsioVS)
 
+--- 
+
 # Project Summary:
 
 ## Objective:
@@ -94,19 +96,20 @@ Battle royal driving game blended with [slither.io](http://slither.io/)'s growth
 - Shaders compiled and readied.
 
 ### Credits:
-- As usual, [LearnOpenGL](https://learnopengl.com/) helped me figure out how to use OpenGL.
+- My excellent team members Ben, Rukiya, and Brian.
+- [LearnOpenGL](https://learnopengl.com/) for helping me figure out how to use OpenGL.
 - Space skybox generated using [Spacescape](http://alexcpeterson.com/spacescape/).
 
 ---
 
-# Ingame Footage:
+# Gameplay Video:
 
-## Video:
-
-<iframe width="800" height="450" src="https://www.youtube.com/embed/cg6CkGn4yRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="775" height="425" src="https://www.youtube.com/embed/cg6CkGn4yRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 For some reason audio wasn't recorded (and it may be copyrighted anyway) so for the full effect, get the game on GitHub and compile it yourself.
 
-## Screenshots: 
+# Artwork:
+
+## Ingame Screenshots:
 <img src="/assets/images/Projects/Karsio/2019-10-05_23-11-04.png" width="800" />
 <img src="/assets/images/Projects/Karsio/2019-10-05_20-36-31.png" width="800" />
 <img src="/assets/images/Projects/Karsio/2019-10-05_20-36-41.jpg" width="800" />
@@ -118,3 +121,12 @@ For some reason audio wasn't recorded (and it may be copyrighted anyway) so for 
 <img src="/assets/images/Projects/Karsio/2019-10-05_20-39-57.jpg" width="800" />
 <img src="/assets/images/Projects/Karsio/2019-10-05_20-40-20.jpg" width="800" />
 
+## Rukiya's Concept Art:
+<img src="/assets/images/Projects/Karsio/CarAmour.png" width="800" />
+<img src="/assets/images/Projects/Karsio/Cars-2.png" width="800" />
+<img src="/assets/images/Projects/Karsio/CarScene1.png" width="800" />
+<img src="/assets/images/Projects/Karsio/CarScene2.png" width="800" />
+<img src="/assets/images/Projects/Karsio/Tech.png" width="800" />
+<img src="/assets/images/Projects/Karsio/Upgrades.png" width="800" />
+
+--- 

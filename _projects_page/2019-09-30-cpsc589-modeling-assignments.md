@@ -16,21 +16,9 @@ Collection of assignments I did well on for the _modeling_ course (Computer Scie
 
 <!--more-->
 
-# Todo! fill this with the correct content
+# Hypocycloid
 
-<!-- ##### Links to additional images on my ArtStation:
-- [Test for BVH vs KD trees in PBRT](https://www.artstation.com/artwork/N5gAaP)
-- [Polygonal apertures in PBRT](https://www.artstation.com/artwork/A960v5)
-- [Deferred rendering in OpenGL](https://www.artstation.com/artwork/nQvA2X)
-- [SSAO in OpenGL](https://www.artstation.com/artwork/RYgAXy) -->
-
-<!-- ##### Link to source code: -->
-<!-- - [GitHub](https://github.com/Beskamir/Intro-to-Computer-Graphics) -->
-
-<!-- --- -->
-## Assignment 1: Hypocycloid
-
-### Features: 
+## Features: 
 - Draws [hypocycloids](https://en.wikipedia.org/wiki/Hypocycloid) of any inner and outer circle radii.
 - User can change:
    - Inner and outer circle radii.
@@ -44,17 +32,17 @@ Collection of assignments I did well on for the _modeling_ course (Computer Scie
       - Dot indicating where the curve is being drawn.
    - Switch to polynomial curve drawer that shows what happens when a curve's weights do not sum to 1. (The curve is coordinate dependent)
 
-#### Screenshots of some resulting hypocycloids: 
+### Screenshots of hypocycloids: 
 <!-- <img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="800" />
 <img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="800" />
 <img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="800" />
 <img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="800" /> -->
 
 
-### Credits:
+## Credits:
 - [OpenGL Template/Boilerplate as provided by Mia MacTavish (the TA for the course)](https://pages.cpsc.ucalgary.ca/~mmactavi/589/)
 
 ---
 
-## To be updated once the other assignments are completed
+# To be updated
 
