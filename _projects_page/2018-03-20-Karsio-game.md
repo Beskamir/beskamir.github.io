@@ -3,13 +3,13 @@ layout: article
 title: Karsio Engine and Game
 key: 20180320
 permalink: /projects/Karsio
-cover: https://cdnb.artstation.com/p/assets/images/images/017/564/095/large/sebastian-kopacz-template-2019-04-28-20-12-27.jpg?1556505732
+cover: /assets/images/Projects/Karsio/2019-10-05_23-11-04.png
 aside:
   toc: true
-# article_header:
-#   type: cover
-#   image:
-#     src: /assets/images/cover1.jpg
+article_header:
+  type: cover
+  image:
+    src: /assets/images/Projects/Karsio/2019-10-05_23-11-04.png
 ---
 
 Group course project for the _Games Programming_ course (Computer Science 585 at the University of Calgary) I took in winter 2018 and where I worked in a team of 4 to build an engine and game.
@@ -22,103 +22,92 @@ Group course project for the _Games Programming_ course (Computer Science 585 at
 - [Deferred rendering in OpenGL](https://www.artstation.com/artwork/nQvA2X)
 - [SSAO in OpenGL](https://www.artstation.com/artwork/RYgAXy) -->
 
-<!-- ##### Link to source code: -->
-<!-- - [GitHub](https://github.com/Beskamir/Intro-to-Computer-Graphics) -->
+[Link to source code](https://github.com/Beskamir/KarsioVS)
 
-<!-- --- -->
-## Justification
+# Project Summary:
 
-# TODO: Fill this with the actual info stuffs
+## Objective:
 
-### Features: 
-- Made the test scene in Blender then figured out how to export it to PBRT and automate as much of the process as possible.
-- I then just added models to a selected region in the scene and had a batch script rendering each scene with PBRT using both KD and BVH acceleration.
-- Once that was done all that was needed was to graph the results and realize that both increase at the same rate with just a slight difference in speed.
+Make a driving game within a semester in a team of 4 computer science majors.
 
-#### Blender's cycles render: 
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/162/large/sebastian-kopacz-wasteland.jpg?1556498859" width="400" />
+## Allowed Libraries:
+- Microsoft DirectX
+- Glut
+- **Glew**
+- **OpenGL Mathematics (GLM)**
+- **PhysX SDK**
+- Open Dynamics Engine
+- Simple DirectMedia Layer
+- OpenAL
+- **Fmod**
+- Cg Toolkit
+- **OpenGL Extension Wrangler Librar (glfw)**
+- **FTGL Font Library**
+- **Open Asset Importer Library (assimp)**
+- **stb**
 
-#### Base PBRT render before I started adding models: 
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="400" />
+The libraries we used are indicated with **bold text**.
 
-<!-- todo: add graph showing performance -->
+## Our Idea:
 
-### Credits:
-- [PBRT library](https://github.com/mmp/pbrt-v3) and the corresponding documentation. 
+Battle royal driving game blended with [slither.io](http://slither.io/)'s growth concept. 
 
----
-## Assignment 2: Apertures
+## Features:
+- Upgrade system.
+  - Chassis
+  - Weapon
+  - Armor
+  - Ramming
+- Resource crystals.
+  - Blue crystals needed for upgrades.
+  - Red crystals restore health.
+- AI makes use of crystals and upgrades.
+- Sound effects and music.
+- Procedural level.
+- Lock on targeting.
+- Custom art assets.
+- Entity component system for entity organization.
+- Uses Nvidia PhysX for collisions and driving model.
+- Keyboard and Xbox controller supported.
 
-### Features: 
-- By default PBRT only has circular apertures.
-- Extended PBRT to support any regular polygonal aperture.
-- Also supports stars of any polygonal number of points despite the bonus only requiring 5 pointed stars.
+## My Tasks:
 
+### Render Engine:
+- 2D user interface rendering class.
+  - FreeType text.
+  - Image planes.
+- 3D renderer for currently active models.
+  - PBR materials.
+  - Shadow mapping using a central point light.
+  - Crystals slightly change color based on the user's view to create a sparkle effect.
+  - Space skybox which can be best seen on the main menu.
+- GLFW window setup.
 
-#### Default PBRT aperture: 
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/324/large/sebastian-kopacz-starsonly0.jpg?1556499678" width="400" />
-
-#### Regular pentagonal aperture: 
-<img src="https://cdnb.artstation.com/p/assets/images/images/017/563/375/large/sebastian-kopacz-starsonly5.jpg?1556499973" width="400" />
-
-#### Star aperture with 5 points: 
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/376/large/sebastian-kopacz-starsonly-5.jpg?1556500064" width="400" />
-
-#### Regular triangle aperture: 
-<img src="https://cdnb.artstation.com/p/assets/images/images/017/563/327/large/sebastian-kopacz-starsonly3.jpg?1556499680" width="400" />
-
-#### Star aperture with 3 points: 
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/330/large/sebastian-kopacz-starsonly-3.jpg?1556499790" width="400" />
-
-### Credits:
-- [PBRT library](https://github.com/mmp/pbrt-v3) and the corresponding documentation. 
-
----
-## Assignment 3: Sampling
-
-PBRT has a bug where it will sample a half disk the same as a full disk, our task was to fix this by changing the samples so that it would be from just the half disk rather than the entire disk. Unfortunately I used rejection sampling instead of properly transforming the samples to be uniformly spaced on the disk. As such my implementation was incorrect and not particularly nice visually. As such I won't be including pictures of it here.
-
----
-## Assignment 4: Deferred
-
-### Features:
-- Based on my model viewer from _[Intro to Computer Graphics](http://localhost:4000/projects/Intro-to-Graphics)_.
-   - As such shares many of the features that were implemented for that assignment.
-- Main addition is the deferred rendering pipeline.
-- Also has Oren-Nayer diffuse shading in addition to Phong shading.
-  
-#### Phong lighting: 
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/704/large/sebastian-kopacz-assignment4-2019-04-28-19-40-00.jpg?1556502324" width="400" />
-
-#### Oren-Nayer diffuse shading with sigma 0: 
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/706/large/sebastian-kopacz-2019-04-28-19-40-07.jpg?1556502069" width="400" />
-
-#### Oren-Nayer diffuse shading with sigma 20: 
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/708/large/sebastian-kopacz-2019-04-28-19-40-36.jpg?1556502076" width="400" />
-
+### Art Import System:
+- Parse .ini files to find art assets.
+- Models loaded using assimp.
+- Textures loaded using stb.
+- Shaders compiled and readied.
 
 ### Credits:
-- [Learn OpenGL](https://learnopengl.com/) has always been my go to source for anything OpenGL related and this was no different.
-- Following resources helped with figuring out Oren-Nayer shading
-   - [http://www.sidefx.com/docs/houdini/nodes/vop/oren.html](http://www.sidefx.com/docs/houdini/nodes/vop/oren.html)
-   - [http://jship.github.io/glPortfolio/demos/oren_nayar/oren_nayar.html](http://jship.github.io/glPortfolio/demos/oren_nayar/oren_nayar.html)
-   - [https://en.wikipedia.org/wiki/Oren%E2%80%93Nayar_reflectance_model](https://en.wikipedia.org/wiki/Oren%E2%80%93Nayar_reflectance_model)
+- As usual, [LearnOpenGL](https://learnopengl.com/) helped me figure out how to use OpenGL.
+- Space skybox generated using [Spacescape](http://alexcpeterson.com/spacescape/).
 
 ---
-## Assignment 4: SSAO
-  
-### Features:
-- Continuation of the previous assignment (assignment 4, deferred rendering) so many of the previous features carried over.
-- Implemented Crytek's SSAO
-- Rocket model was a slightly upgraded version of the rocket in the scene for assignment 1.
-  
-#### Diffuse lighting without SSAO: 
-<img src="https://cdnb.artstation.com/p/assets/images/images/017/563/975/large/sebastian-kopacz-2019-04-28-20-02-46.jpg?1556503414" width="400" />
 
-#### Diffuse lighting with SSAO: 
-<img src="https://cdnb.artstation.com/p/assets/images/images/017/563/967/large/sebastian-kopacz-assignment5-2019-04-28-20-02-39.jpg?1556503650" width="400" />
+# Ingame Footage:
 
-### Credits:
-- Once again [Learn OpenGL](https://learnopengl.com/) has helped me figure stuff out.
+## Video:
 
----
+## Screenshots: 
+<img src="/assets/images/Projects/Karsio/2019-10-05_23-11-04.png" width="800" />
+<img src="/assets/images/Projects/Karsio/2019-10-05_20-36-31.png" width="800" />
+<img src="/assets/images/Projects/Karsio/2019-10-05_20-36-41.jpg" width="800" />
+<img src="/assets/images/Projects/Karsio/2019-10-05_20-37-33.png" width="800" />
+<img src="/assets/images/Projects/Karsio/2019-10-05_20-39-04.jpg" width="800" />
+<img src="/assets/images/Projects/Karsio/2019-10-05_20-39-36.png" width="800" />
+<img src="/assets/images/Projects/Karsio/2019-10-05_20-39-51.png" width="800" />
+<img src="/assets/images/Projects/Karsio/2019-10-05_20-41-08.jpg" width="800" />
+<img src="/assets/images/Projects/Karsio/2019-10-05_20-39-57.jpg" width="800" />
+<img src="/assets/images/Projects/Karsio/2019-10-05_20-40-20.jpg" width="800" />
+

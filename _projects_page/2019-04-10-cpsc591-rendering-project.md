@@ -36,10 +36,10 @@ Course project for the _Rendering_ course (Computer Science 591 at the Universit
 - Once that was done all that was needed was to graph the results and realize that both increase at the same rate with just a slight difference in speed.
 
 #### Blender's cycles render: 
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/162/large/sebastian-kopacz-wasteland.jpg?1556498859" width="400" />
+<img src="https://cdna.artstation.com/p/assets/images/images/017/563/162/large/sebastian-kopacz-wasteland.jpg?1556498859" width="800" />
 
 #### Base PBRT render before I started adding models: 
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="400" />
+<img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="800" />
 
 <!-- todo: add graph showing performance -->
 
@@ -56,19 +56,19 @@ Course project for the _Rendering_ course (Computer Science 591 at the Universit
 
 
 #### Default PBRT aperture: 
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/324/large/sebastian-kopacz-starsonly0.jpg?1556499678" width="400" />
+<img src="https://cdna.artstation.com/p/assets/images/images/017/563/324/large/sebastian-kopacz-starsonly0.jpg?1556499678" width="800" />
 
 #### Regular pentagonal aperture: 
-<img src="https://cdnb.artstation.com/p/assets/images/images/017/563/375/large/sebastian-kopacz-starsonly5.jpg?1556499973" width="400" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/017/563/375/large/sebastian-kopacz-starsonly5.jpg?1556499973" width="800" />
 
 #### Star aperture with 5 points: 
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/376/large/sebastian-kopacz-starsonly-5.jpg?1556500064" width="400" />
+<img src="https://cdna.artstation.com/p/assets/images/images/017/563/376/large/sebastian-kopacz-starsonly-5.jpg?1556500064" width="800" />
 
 #### Regular triangle aperture: 
-<img src="https://cdnb.artstation.com/p/assets/images/images/017/563/327/large/sebastian-kopacz-starsonly3.jpg?1556499680" width="400" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/017/563/327/large/sebastian-kopacz-starsonly3.jpg?1556499680" width="800" />
 
 #### Star aperture with 3 points: 
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/330/large/sebastian-kopacz-starsonly-3.jpg?1556499790" width="400" />
+<img src="https://cdna.artstation.com/p/assets/images/images/017/563/330/large/sebastian-kopacz-starsonly-3.jpg?1556499790" width="800" />
 
 ### Credits:
 - [PBRT library](https://github.com/mmp/pbrt-v3) and the corresponding documentation. 
@@ -88,13 +88,13 @@ PBRT has a bug where it will sample a half disk the same as a full disk, our tas
 - Also has Oren-Nayer diffuse shading in addition to Phong shading.
   
 #### Phong lighting: 
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/704/large/sebastian-kopacz-assignment4-2019-04-28-19-40-00.jpg?1556502324" width="400" />
+<img src="https://cdna.artstation.com/p/assets/images/images/017/563/704/large/sebastian-kopacz-assignment4-2019-04-28-19-40-00.jpg?1556502324" width="800" />
 
 #### Oren-Nayer diffuse shading with sigma 0: 
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/706/large/sebastian-kopacz-2019-04-28-19-40-07.jpg?1556502069" width="400" />
+<img src="https://cdna.artstation.com/p/assets/images/images/017/563/706/large/sebastian-kopacz-2019-04-28-19-40-07.jpg?1556502069" width="800" />
 
 #### Oren-Nayer diffuse shading with sigma 20: 
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/708/large/sebastian-kopacz-2019-04-28-19-40-36.jpg?1556502076" width="400" />
+<img src="https://cdna.artstation.com/p/assets/images/images/017/563/708/large/sebastian-kopacz-2019-04-28-19-40-36.jpg?1556502076" width="800" />
 
 
 ### Credits:
@@ -113,10 +113,10 @@ PBRT has a bug where it will sample a half disk the same as a full disk, our tas
 - Rocket model was a slightly upgraded version of the rocket in the scene for assignment 1.
   
 #### Diffuse lighting without SSAO: 
-<img src="https://cdnb.artstation.com/p/assets/images/images/017/563/975/large/sebastian-kopacz-2019-04-28-20-02-46.jpg?1556503414" width="400" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/017/563/975/large/sebastian-kopacz-2019-04-28-20-02-46.jpg?1556503414" width="800" />
 
 #### Diffuse lighting with SSAO: 
-<img src="https://cdnb.artstation.com/p/assets/images/images/017/563/967/large/sebastian-kopacz-assignment5-2019-04-28-20-02-39.jpg?1556503650" width="400" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/017/563/967/large/sebastian-kopacz-assignment5-2019-04-28-20-02-39.jpg?1556503650" width="800" />
 
 ### Credits:
 - Once again [Learn OpenGL](https://learnopengl.com/) has helped me figure stuff out.

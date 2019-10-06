@@ -33,7 +33,7 @@ Collection of the 4 assignments I completed for the _Intro to Computer Graphics_
 - Draws first to tenth order Hilbert Curves using OpenGL's lines as well as by using thin triangles.
 
 #### Multi-colored 7th order Hilbert Curve using thin triangles for the lines: 
-<img src="https://cdnb.artstation.com/p/assets/images/images/014/276/469/large/sebastian-kopacz-assignment1-2018-11-26-23-06-56.jpg?1543298910" width="400" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/014/276/469/large/sebastian-kopacz-assignment1-2018-11-26-23-06-56.jpg?1543298910" width="800" />
 
 ### Credits:
 - Regarding the software implementation the following resources were invaluable: 
@@ -52,16 +52,16 @@ Collection of the 4 assignments I completed for the _Intro to Computer Graphics_
 
 
 #### Multi-colored Catmull-Rom spline drawing and 2-bit image quantization: 
-<img src="https://cdnb.artstation.com/p/assets/images/images/014/257/939/large/sebastian-kopacz-bonusimage.jpg?1543232178" width="400" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/014/257/939/large/sebastian-kopacz-bonusimage.jpg?1543232178" width="800" />
 
 #### Original image by nexus user realdreadstar (check credits section): 
-<img src="https://cdnb.artstation.com/p/assets/images/images/014/258/571/large/sebastian-kopacz-tower.jpg?1543231507" width="400" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/014/258/571/large/sebastian-kopacz-tower.jpg?1543231507" width="800" />
 
 #### Grayscale filter uses NTSC conversion weights: 
-<img src="https://cdnb.artstation.com/p/assets/images/images/014/258/845/large/sebastian-kopacz-greyscale.jpg?1543232531" width="400" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/014/258/845/large/sebastian-kopacz-greyscale.jpg?1543232531" width="800" />
 
 #### 2-bit image quantization: 
-<img src="https://cdnb.artstation.com/p/assets/images/images/014/276/275/large/sebastian-kopacz-2bit.jpg?1543297907" width="400" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/014/276/275/large/sebastian-kopacz-2bit.jpg?1543297907" width="800" />
 
 
 ### Credits:
@@ -86,7 +86,7 @@ Collection of the 4 assignments I completed for the _Intro to Computer Graphics_
 - Phong lighting model using diffuse, specular and ambient occlusion textures.
   
 #### Scene was built in engine using the model transformation tools I implemented:
-<img src="https://cdnb.artstation.com/p/assets/images/images/014/257/445/large/sebastian-kopacz-chessboard02.jpg?1543227840" width="400" /> <img src="https://cdna.artstation.com/p/assets/images/images/014/257/446/large/sebastian-kopacz-chessboard.jpg?1543226413" width="400" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/014/257/445/large/sebastian-kopacz-chessboard02.jpg?1543227840" width="800" /> <img src="https://cdna.artstation.com/p/assets/images/images/014/257/446/large/sebastian-kopacz-chessboard.jpg?1543226413" width="800" />
 
   
 ### Credits:
@@ -110,10 +110,10 @@ Collection of the 4 assignments I completed for the _Intro to Computer Graphics_
 - Supports basic OBJ features and models can be loaded with a config file.
   
 #### My custom scene: 
-<img src="https://cdna.artstation.com/p/assets/images/images/014/259/400/large/sebastian-kopacz-custom.jpg?1543234486" width="400" />
+<img src="https://cdna.artstation.com/p/assets/images/images/014/259/400/large/sebastian-kopacz-custom.jpg?1543234486" width="800" />
 
 #### Default Cornell box: 
-<img src="https://cdnb.artstation.com/p/assets/images/images/014/259/407/large/sebastian-kopacz-default.jpg?1543234451" width="400" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/014/259/407/large/sebastian-kopacz-default.jpg?1543234451" width="800" />
 
 ### Credits:
 - All models either made by me or specified in the assignment description.
