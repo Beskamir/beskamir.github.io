@@ -18,6 +18,8 @@ Course project for the _Rendering_ course (Computer Science 591 at the Universit
 
 [ArtStation Link](https://www.artstation.com/artwork/zA0a0L)
 
+As with the rendering assignments, the source code for this project is hosted on my Git-Gogs server.
+
 --- 
 
 # Justification:
@@ -80,5 +82,8 @@ Course project for the _Rendering_ course (Computer Science 591 at the Universit
 ## RTX Resources:
 - [Martin-Karl Lefrançois and Pascal Gautron's Vulkan RTX Tutorial on Nvidia's blog](https://developer.nvidia.com/rtx/raytracing/vkray).
 - [Sergii Kudlai's Vulkan RTX Tutorial](https://iorange.github.io/p01/HappyTriangle.html).
+
+## General Credits:
+- The event system, logger, and window startup are all based on early versions of [Yan Chernikov's Hazel game engine](https://github.com/TheCherno/Hazel) since I was following his game engine series around the time of this project.
 
 ---
