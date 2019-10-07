@@ -3,13 +3,13 @@ layout: article
 title: Karsio Engine and Game
 key: 20180320
 permalink: /projects/Karsio
-cover: /assets/images/Projects/Karsio/2019-10-05_23-11-04.png
+cover: https://cdna.artstation.com/p/assets/images/images/021/123/064/large/sebastian-kopacz-2019-10-05-23-11-04.jpg?1570477476
 aside:
   toc: true
 article_header:
   type: cover
   image:
-    src: /assets/images/Projects/Karsio/2019-10-05_23-11-04.png
+    src: https://cdna.artstation.com/p/assets/images/images/021/123/064/large/sebastian-kopacz-2019-10-05-23-11-04.jpg?1570477476
 ---
 
 Group course project for the _Games Programming_ course (Computer Science 585 at the University of Calgary) I took in winter 2018 and where I worked in a team of 4 (Ben, Rukiya, Brian, and myself) to build a game engine and of course the game itself.
@@ -110,7 +110,17 @@ For some reason audio wasn't recorded (and it may be copyrighted anyway) so for 
 # Artwork:
 
 ## Ingame Screenshots:
-<img src="/assets/images/Projects/Karsio/2019-10-05_23-11-04.png" width="800" />
+<img src="https://cdna.artstation.com/p/assets/images/images/021/123/064/large/sebastian-kopacz-2019-10-05-23-11-04.jpg?1570477476" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/123/067/large/sebastian-kopacz-2019-10-05-20-36-31.jpg?1570477214" width="800" />
+<img src="https://cdna.artstation.com/p/assets/images/images/021/123/054/large/sebastian-kopacz-2019-10-05-20-36-41.jpg?1570477204" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/123/059/large/sebastian-kopacz-2019-10-05-20-37-33.jpg?1570477206" width="800" />
+<img src="https://cdna.artstation.com/p/assets/images/images/021/123/062/large/sebastian-kopacz-2019-10-05-20-39-04.jpg?1570477209" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/123/065/large/sebastian-kopacz-2019-10-05-20-39-36.jpg?1570477211" width="800" />
+<img src="https://cdna.artstation.com/p/assets/images/images/021/123/068/large/sebastian-kopacz-2019-10-05-20-39-51.jpg?1570477214" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/123/061/large/sebastian-kopacz-2019-10-05-20-41-08.jpg?1570477209" width="800" />
+<img src="https://cdna.artstation.com/p/assets/images/images/021/123/056/large/sebastian-kopacz-2019-10-05-20-39-57.jpg?1570477473" width="800" />
+<img src="https://cdna.artstation.com/p/assets/images/images/021/123/058/large/sebastian-kopacz-2019-10-05-20-40-20.jpg?1570477207" width="800" />
+<!-- <img src="/assets/images/Projects/Karsio/2019-10-05_23-11-04.png" width="800" />
 <img src="/assets/images/Projects/Karsio/2019-10-05_20-36-31.png" width="800" />
 <img src="/assets/images/Projects/Karsio/2019-10-05_20-36-41.jpg" width="800" />
 <img src="/assets/images/Projects/Karsio/2019-10-05_20-37-33.png" width="800" />
@@ -119,7 +129,7 @@ For some reason audio wasn't recorded (and it may be copyrighted anyway) so for 
 <img src="/assets/images/Projects/Karsio/2019-10-05_20-39-51.png" width="800" />
 <img src="/assets/images/Projects/Karsio/2019-10-05_20-41-08.jpg" width="800" />
 <img src="/assets/images/Projects/Karsio/2019-10-05_20-39-57.jpg" width="800" />
-<img src="/assets/images/Projects/Karsio/2019-10-05_20-40-20.jpg" width="800" />
+<img src="/assets/images/Projects/Karsio/2019-10-05_20-40-20.jpg" width="800" /> -->
 
 ## Rukiya's Concept Art:
 <img src="/assets/images/Projects/Karsio/CarAmour.png" width="800" />
