@@ -70,6 +70,7 @@ Grant Wilk from Remington Graphics (now Remington Creative), hosted a Blender co
 
 ## Credits:
 - Blender's API documentation. 
+- Heart implicit surface equation from [Implicit Algebraic Surfaces](https://www-sop.inria.fr/galaad/surface/)
 
 ---
 # Implicit Surfaces: Scene
@@ -82,5 +83,6 @@ Grant Wilk from Remington Graphics (now Remington Creative), hosted a Blender co
 
 ## Credits:
 - Blender's API documentation
+- Most of the implicit surface equations used in this scene are from [Implicit Algebraic Surfaces](https://www-sop.inria.fr/galaad/surface/)
 
 ---
