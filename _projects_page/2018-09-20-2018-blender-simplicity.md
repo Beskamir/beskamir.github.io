@@ -70,7 +70,7 @@ Grant Wilk from Remington Graphics (now Remington Creative), hosted a Blender co
 
 ## Credits:
 - Blender's API documentation. 
-- Heart implicit surface equation from [Implicit Algebraic Surfaces](https://www-sop.inria.fr/galaad/surface/)
+- Heart implicit surface equation from the [second assignment](http://beskamir.github.io/projects/haptics-assignments#implicit-surfaces) of the *Computer Haptics* course (Computer Science 599.86 at the University of Calgary) I took in winter 2018.
 
 ---
 # Implicit Surfaces: Scene
