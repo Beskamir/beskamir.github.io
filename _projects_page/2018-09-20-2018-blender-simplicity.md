@@ -84,5 +84,7 @@ Grant Wilk from Remington Graphics (now Remington Creative), hosted a Blender co
 ## Credits:
 - Blender's API documentation
 - Most of the implicit surface equations used in this scene are from [Implicit Algebraic Surfaces](https://www-sop.inria.fr/galaad/surface/)
+- Some implicit surfaces equations from the [second assignment](http://beskamir.github.io/projects/haptics-assignments#implicit-surfaces) of the *Computer Haptics* course (Computer Science 599.86 at the University of Calgary) I took in winter 2018.
+- Remaining models made in blender using object mode as per the competition's rules.
 
 ---
