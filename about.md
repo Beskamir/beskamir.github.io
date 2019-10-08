@@ -7,9 +7,16 @@ aside:
   toc: true
 ---
 
-Introduction?
+# Introduction:
+
+Hello there, I'm Sebastian Kopacz (in case my name being plastered everywhere on this site didn't give that away) and I'm currently in my last year at the University of Calgary studying computer science and psychology. My professional interests are mainly focused on computer graphics although I also like anything related to neuroscience, game development, AI and robotics. 
+
+## Contact me:
+
+The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com) and if you wish to see more of my work find me on [ArtStation](https://www.artstation.com/beskamir), [GitHub](https://github.com/Beskamir) or [YouTube](https://www.youtube.com/channel/UCQ3GtOxTGVyRV8awtzV0IPg). Otherwise I try to stay away from social media so don't expect to find me on LinkedIn or Facebook and the social media that I do have I'm usually really inactive on such as Twitter.
 
 ---
+
 
 # Formal Education:
 
@@ -166,7 +173,7 @@ Introduction?
 - Playing & modding games
 - Creating digital 3D art
 - 3D printing
-- Watching shows and movies
+- Watching shows & movies
 - Reading fiction
 - Staying up to date with science & technology
 - Playing with my dogs
