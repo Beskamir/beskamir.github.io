@@ -32,23 +32,16 @@ Group course project for the _Games Programming_ course (Computer Science 585 at
 
 Make a driving game within a semester in a team of 4 computer science majors.
 
-## Allowed Libraries:
-- Microsoft DirectX
-- Glut
-- **Glew**
-- **OpenGL Mathematics (GLM)**
-- **PhysX SDK**
-- Open Dynamics Engine
-- Simple DirectMedia Layer
-- OpenAL
-- **Fmod**
-- Cg Toolkit
-- **OpenGL Extension Wrangler Librar (glfw)**
-- **FTGL Font Library**
-- **Open Asset Importer Library (assimp)**
-- **stb**
-
-The libraries we used are indicated with **bold text**.
+## Libraries Used:
+- OpenGL - rendering API
+- OpenGL Extension Wrangler Library (glew) - calling OpenGL functions
+- GLFW - window and input capture
+- OpenGL Mathematics (GLM) - all linear algebra computations
+- FTGL Font Library - fonts
+- Open Asset Importer Library (assimp) - model loader
+- stb - image importing
+- PhysX SDK - physics engine
+- Fmod - audio engine
 
 ## Our Idea:
 
@@ -120,16 +113,6 @@ For some reason audio wasn't recorded (and it may be copyrighted anyway) so for 
 <img src="https://cdnb.artstation.com/p/assets/images/images/021/123/061/large/sebastian-kopacz-2019-10-05-20-41-08.jpg?1570477209" width="800" />
 <img src="https://cdna.artstation.com/p/assets/images/images/021/123/056/large/sebastian-kopacz-2019-10-05-20-39-57.jpg?1570477473" width="800" />
 <img src="https://cdna.artstation.com/p/assets/images/images/021/123/058/large/sebastian-kopacz-2019-10-05-20-40-20.jpg?1570477207" width="800" />
-<!-- <img src="/assets/images/Projects/Karsio/2019-10-05_23-11-04.png" width="800" />
-<img src="/assets/images/Projects/Karsio/2019-10-05_20-36-31.png" width="800" />
-<img src="/assets/images/Projects/Karsio/2019-10-05_20-36-41.jpg" width="800" />
-<img src="/assets/images/Projects/Karsio/2019-10-05_20-37-33.png" width="800" />
-<img src="/assets/images/Projects/Karsio/2019-10-05_20-39-04.jpg" width="800" />
-<img src="/assets/images/Projects/Karsio/2019-10-05_20-39-36.png" width="800" />
-<img src="/assets/images/Projects/Karsio/2019-10-05_20-39-51.png" width="800" />
-<img src="/assets/images/Projects/Karsio/2019-10-05_20-41-08.jpg" width="800" />
-<img src="/assets/images/Projects/Karsio/2019-10-05_20-39-57.jpg" width="800" />
-<img src="/assets/images/Projects/Karsio/2019-10-05_20-40-20.jpg" width="800" /> -->
 
 ## Rukiya's Concept Art:
 <img src="/assets/images/Projects/Karsio/CarAmour.png" width="800" />
