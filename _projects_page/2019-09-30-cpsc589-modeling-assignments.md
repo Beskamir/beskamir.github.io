@@ -16,9 +16,11 @@ Collection of assignments I did well on for the _modeling_ course (Computer Scie
 
 <!--more-->
 
+#### [Source code](https://github.com/Beskamir/Hypocycloid)
+
 # Hypocycloid
 
-## Features: 
+## Features
 - Draws [hypocycloids](https://en.wikipedia.org/wiki/Hypocycloid) of any inner and outer circle radii.
 - User can change:
    - Inner and outer circle radii.
@@ -30,16 +32,18 @@ Collection of assignments I did well on for the _modeling_ course (Computer Scie
       - Outer circle outline.
       - Inner circle outline.
       - Dot indicating where the curve is being drawn.
-   - Switch to polynomial curve drawer that shows what happens when a curve's weights do not sum to 1. (The curve is coordinate dependent)
+   - Option to draw a coordinate dependent polynomial curve $$(Q(u)=P_0 + P_1u + P_2u^2, 0 \le u \le 1 )$$ which demonstrates what happens when the weights of a curve do not sum to one.
 
-### Screenshots of hypocycloids: 
+
+### Screenshots
 <!-- <img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="800" />
 <img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="800" />
 <img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="800" />
 <img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="800" /> -->
 
+### Videos
 
-## Credits:
+## Credits
 - [OpenGL Template/Boilerplate as provided by Mia MacTavish (the TA for the course)](https://pages.cpsc.ucalgary.ca/~mmactavi/589/)
 
 ---

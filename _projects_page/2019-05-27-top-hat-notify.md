@@ -18,7 +18,7 @@ Simple Python script to notify me when Top Hat question are up so I could skip h
 
 **Warning: Since this program helps you skip class, I've intentionally ensured some competence is needed to make use of it. As such this documentation, while complete, will not hold your hand. Also this script is by no means perfect (might have false positives/negatives) and relies on a command line interface. These are missing features that have been left for whoever wants to make use of this to skip lectures to fix or implement.**
 
-[Link to source code](https://github.com/Beskamir/TopHatNotify.git)
+#### [Source code](https://github.com/Beskamir/TopHatNotify.git)
 
 ---
 

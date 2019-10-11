@@ -18,11 +18,11 @@ Course project for the _Rendering_ course (Computer Science 591 at the Universit
 
 [ArtStation Link](https://www.artstation.com/artwork/zA0a0L)
 
-As with the rendering assignments, the source code for this project is hosted on my Git-Gogs server.
+###### Source code is self-hosted on my home Git-Gogs server which is only accessible from my home network.
 
 --- 
 
-# Justification:
+# Justification
 - Just seemed like the coolest project idea I could think of that didn't necessarily require a load of math.
 - It was a massive learning opportunity!
   - Went in not knowing Vulkan, came out at least knowing the basics.
@@ -32,7 +32,7 @@ As with the rendering assignments, the source code for this project is hosted on
 - Self-justification...
   - I bought a RTX2080 very shortly after launch and had to somehow justify the early adopter fee.
   
-# Features: 
+# Features
 - Normal Vulkan rasterization with z-fighting. 
   - This wasn't the main objective so I didn't care enough to fix it.
 - Ray tracing using RTX in Vulkan. 
@@ -43,47 +43,47 @@ As with the rendering assignments, the source code for this project is hosted on
 
 --- 
 
-# Screenshots:
+# Screenshots
 
-## Ray Tracing: 
-### Final version:
+## Ray Tracing
+### Final version
 <img src="https://cdnb.artstation.com/p/assets/images/images/017/564/095/large/sebastian-kopacz-template-2019-04-28-20-12-27.jpg?1556505732" width="800" />
 <img src="/assets/images/Projects/Rendering/Project/raytracerFinal(1).png" width="800" />
 
-### WIP renders:
+### WIP renders
 <img src="/assets/images/Projects/Rendering/Project/raytracerFinal(2).png" width="800" />
 <img src="/assets/images/Projects/Rendering/Project/rayTracerTests(3).png" width="800" />
 <img src="/assets/images/Projects/Rendering/Project/rayTracerTests(1).png" width="800" />
 
-## Rasterization: 
+## Rasterization
 <img src="https://cdna.artstation.com/p/assets/images/images/017/564/096/large/sebastian-kopacz-template-2019-04-28-20-12-37.jpg?1556504005" width="800" />
 <img src="/assets/images/Projects/Rendering/Project/rasterization(1).png" width="800" />
 <img src="/assets/images/Projects/Rendering/Project/rasterization(3).png" width="800" />
 <img src="/assets/images/Projects/Rendering/Project/rasterization(2).png" width="800" />
 <img src="/assets/images/Projects/Rendering/Project/rasterization(4).png" width="800" />
 
-# Videos:
+# Videos
 
-## Ray Tracing:
+## Ray Tracing
 <iframe width="775" height="475" src="https://www.youtube.com/embed/GeCFv7IaF_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="775" height="475" src="https://www.youtube.com/embed/5wluZLteb8c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Rasterization:
+## Rasterization
 <iframe width="775" height="475" src="https://www.youtube.com/embed/TX_6Z4EneaE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
-# Credits:
-## Vulkan Resources:
+# Credits
+## Vulkan Resources
 - [Alexander Overvoorde's Vulkan-Tutorial](https://vulkan-tutorial.com/).
 - [Sascha Willems's Vulkan Examples and Demos](https://github.com/SaschaWillems/Vulkan).
 - [Vulkan API and Documentation](https://vulkan.lunarg.com/doc/view/latest/windows/apispec.html).
 
-## RTX Resources:
+## RTX Resources
 - [Martin-Karl Lefrançois and Pascal Gautron's Vulkan RTX Tutorial on Nvidia's blog](https://developer.nvidia.com/rtx/raytracing/vkray).
 - [Sergii Kudlai's Vulkan RTX Tutorial](https://iorange.github.io/p01/HappyTriangle.html).
 
-## General Credits:
+## General Credits
 - The event system, logger, and window startup are all based on early versions of [Yan Chernikov's Hazel game engine](https://github.com/TheCherno/Hazel) since I was following his game engine series around the time of this project.
 
 ---

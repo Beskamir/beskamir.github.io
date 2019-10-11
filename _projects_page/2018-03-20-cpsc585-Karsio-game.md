@@ -22,17 +22,17 @@ Group course project for the _Games Programming_ course (Computer Science 585 at
 - [Deferred rendering in OpenGL](https://www.artstation.com/artwork/nQvA2X)
 - [SSAO in OpenGL](https://www.artstation.com/artwork/RYgAXy) -->
 
-[Link to source code](https://github.com/Beskamir/KarsioVS)
+#### [Source code](https://github.com/Beskamir/KarsioVS)
 
 --- 
 
-# Project Summary:
+# Project Summary
 
-## Objective:
+## Objective
 
 Make a driving game within a semester in a team of 4 computer science majors.
 
-## Libraries Used:
+## Libraries Used
 - OpenGL - rendering API
 - OpenGL Extension Wrangler Library (glew) - calling OpenGL functions
 - GLFW - window and input capture
@@ -43,11 +43,11 @@ Make a driving game within a semester in a team of 4 computer science majors.
 - PhysX SDK - physics engine
 - Fmod - audio engine
 
-## Our Idea:
+## Our Idea
 
-Battle royal driving game blended with [slither.io](http://slither.io/)'s growth concept. 
+Battle royal driving game blended with growth mechanics based on [slither.io](http://slither.io/). 
 
-## Features:
+## Features
 - Upgrade system.
   - Chassis: 
     - Unlocks higher level upgrades but makes you larger and slows you down.
@@ -69,9 +69,9 @@ Battle royal driving game blended with [slither.io](http://slither.io/)'s growth
 - Uses Nvidia PhysX for collisions and driving model.
 - Keyboard and Xbox controller supported.
 
-## My Tasks:
+## My Contributions
 
-### Render Engine:
+### Render Engine
 - 2D user interface rendering class.
   - FreeType text.
   - Image planes.
@@ -82,27 +82,29 @@ Battle royal driving game blended with [slither.io](http://slither.io/)'s growth
   - Space skybox which can be best seen on the main menu.
 - GLFW window setup.
 
-### Art Import System:
+### Art Import System
 - Parse .ini files to find art assets.
 - Models loaded using assimp.
 - Textures loaded using stb.
 - Shaders compiled and readied.
 
-### Credits:
+### Credits
 - My excellent team members Ben, Rukiya, and Brian.
 - [LearnOpenGL](https://learnopengl.com/) for helping me figure out how to use OpenGL.
 - Space skybox generated using [Spacescape](http://alexcpeterson.com/spacescape/).
 
 ---
 
-# Gameplay Video:
+# Gameplay 
+
+## Video
 
 <iframe width="775" height="425" src="https://www.youtube.com/embed/cg6CkGn4yRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 For some reason audio wasn't recorded (and it may be copyrighted anyway) so for the full effect, get the game on GitHub and compile it yourself.
 
-# Artwork:
+## Artwork
 
-## Ingame Screenshots:
+### Ingame Screenshots
 <img src="https://cdna.artstation.com/p/assets/images/images/021/123/064/large/sebastian-kopacz-2019-10-05-23-11-04.jpg?1570477476" width="800" />
 <img src="https://cdnb.artstation.com/p/assets/images/images/021/123/067/large/sebastian-kopacz-2019-10-05-20-36-31.jpg?1570477214" width="800" />
 <img src="https://cdna.artstation.com/p/assets/images/images/021/123/054/large/sebastian-kopacz-2019-10-05-20-36-41.jpg?1570477204" width="800" />
@@ -114,7 +116,7 @@ For some reason audio wasn't recorded (and it may be copyrighted anyway) so for 
 <img src="https://cdna.artstation.com/p/assets/images/images/021/123/056/large/sebastian-kopacz-2019-10-05-20-39-57.jpg?1570477473" width="800" />
 <img src="https://cdna.artstation.com/p/assets/images/images/021/123/058/large/sebastian-kopacz-2019-10-05-20-40-20.jpg?1570477207" width="800" />
 
-## Rukiya's Concept Art:
+### Rukiya's Concept Art
 <img src="/assets/images/Projects/Karsio/CarAmour.png" width="800" />
 <img src="/assets/images/Projects/Karsio/Cars-2.png" width="800" />
 <img src="/assets/images/Projects/Karsio/CarScene1.png" width="800" />

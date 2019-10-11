@@ -16,11 +16,14 @@ Collection of entries for Remington's 2018 simplicity challenge where the object
 
 <!--more-->
 
-##### Links to additional images on my ArtStation:
+
+##### Links to additional images on my ArtStation
 - [T-Cube fractal](https://www.artstation.com/artwork/9ve8N)
 - [DNA strand](https://www.artstation.com/artwork/3RoE2)
 - [Implicit heart model](https://www.artstation.com/artwork/vN1zx)
 - [Implicit models in a scene](https://www.artstation.com/artwork/5m8dW)
+
+###### Source code is self-hosted on my home Git-Gogs server which is only accessible from my home network.
 
 # Justification
 
@@ -28,60 +31,64 @@ Grant Wilk from Remington Graphics (now Remington Creative), hosted a Blender co
 
 ---
 
-# T-Cube Fractal
+# Fractal
 
-## Features: 
+## T-Cube
+
+### Features
 - Simple recursive implementation of a T-Cube fractal.
    - Placed cubes recursively until a certain depth was reached.
    - Made as a simple test of Blender's scripting API.
 - Added a nice procedural material to the resulting cubes.
 
-### Result: 
+### Result
 <img src="https://cdna.artstation.com/p/assets/images/images/012/809/418/large/sebastian-kopacz-fractal01-composited.jpg?1536640185" width="800" />
 
-## Credits:
+### Credits
 - Blender's API documentation. 
 
 ---
 # DNA Strand
 
-## Features: 
-- Considered making a script but ended up making it by hand.
+### Features
+- Considered making a script but ended up making it manually by hand.
 - Mostly a compositing project. (It was saved in post)
 
-### Before compositing: 
+### Before compositing 
 <img src="https://cdna.artstation.com/p/assets/images/images/012/809/562/large/sebastian-kopacz-dna-raw.jpg?1536638347" width="800" />
 
-### After compositing: 
-<img src="https://cdna.artstation.com/p/assets/images/images/012/809/566/large/sebastian-kopacz-dna-composited.jpg?1536640299" width="800" />
+### After compositing
+<img src="https://cdna.artstation.com/p/assets/images/images/021/202/910/large/sebastian-kopacz-dna-composited.jpg?1570760857" width="800" />
 
-## Credits:
+### Credits
 - Blender's API documentation. 
 
 ---
-# Implicit Surfaces: Hearts 
 
-## Features: 
+# Implicit Surfaces
+
+## Heart 
+
+### Features
 - Places voxels based on an implicit surface.
 - Voxels can both be normal cubes and custom made cubes that were manually created using object mode and emulate marching cubes.
 
 ### Result: 
 <img src="https://cdnb.artstation.com/p/assets/images/images/012/809/703/large/sebastian-kopacz-marchingcubesfinal.jpg?1536640168" width="800" />
 
-## Credits:
+### Credits:
 - Blender's API documentation. 
 - Heart implicit surface equation from the [second assignment](http://beskamir.github.io/projects/haptics-assignments#implicit-surfaces) of the *Computer Haptics* course (Computer Science 599.86 at the University of Calgary) I took in winter 2018.
 
----
-# Implicit Surfaces: Scene
+## Scene
 
-## Features:
+### Features
 - Most of the scene built using my implicit surface voxelizer
   
-### Result: 
+### Result
 <img src="https://cdna.artstation.com/p/assets/images/images/012/809/820/large/sebastian-kopacz-implicitscene.jpg?1536640128" width="800" />
 
-## Credits:
+### Credits
 - Blender's API documentation
 - Most of the implicit surface equations used in this scene are from [Implicit Algebraic Surfaces](https://www-sop.inria.fr/galaad/surface/)
 - Some implicit surfaces equations from the [second assignment](http://beskamir.github.io/projects/haptics-assignments#implicit-surfaces) of the *Computer Haptics* course (Computer Science 599.86 at the University of Calgary) I took in winter 2018.
