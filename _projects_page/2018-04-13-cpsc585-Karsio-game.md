@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Karsio Engine and Game
-key: 20180320
+key: 20180413
 permalink: /projects/Karsio
 cover: https://cdna.artstation.com/p/assets/images/images/021/123/064/large/sebastian-kopacz-2019-10-05-23-11-04.jpg?1570477476
 aside:
@@ -92,6 +92,7 @@ Battle royal driving game blended with growth mechanics based on [slither.io](ht
 - My excellent team members Ben, Rukiya, and Brian.
 - [LearnOpenGL](https://learnopengl.com/) for helping me figure out how to use OpenGL.
 - Space skybox generated using [Spacescape](http://alexcpeterson.com/spacescape/).
+- All the previously listed libraries used in this project.
 
 ---
 

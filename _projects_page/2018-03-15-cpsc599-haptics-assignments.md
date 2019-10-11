@@ -16,7 +16,7 @@ Collection of assignments for the *Computer Haptics* course (Computer Science 59
 
 <!--more-->
 
-Unfortunately I don't have access to the haptic devices anymore and even if I did it'd be difficult to show haptics with just images or videos. The lack of an actual haptic device being attached (or running these assignments in debug mode since I can't recompile them without installing a bunch of stuff) is likely why the haptics simulation is only running at around 500hz when at least 1000hz are needed for it to feel nice. 
+Sadly I no longer have access to the Novint Falcon haptic devices used in this course so I cannot take screenshots or record videos demoing the haptic components of these assignments. Plus haptics are something you just have to feel yourself so screenshots and videos wouldn't do it justice anyway. Fortunately I was able to get my old code to run so I can at least show off the various scenes that had haptics implemented in them. Also you might notice that the haptic refresh rate is half of what it should be, this is likely due to my current dev environment since when I worked on them they all ran at around 1000 hz. 
 
 ###### Source code is self-hosted on my home Git-Gogs server which is only accessible from my home network.
 
