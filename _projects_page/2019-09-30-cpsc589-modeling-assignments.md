@@ -3,18 +3,21 @@ layout: article
 title: Computer Graphics Modeling Assignments
 key: 20190930
 permalink: /projects/modeling-assignments
-# cover: https://cdnb.artstation.com/p/assets/images/images/017/564/095/large/sebastian-kopacz-template-2019-04-28-20-12-27.jpg?1556505732
+cover: https://cdnb.artstation.com/p/assets/images/images/021/205/191/large/sebastian-kopacz-2019-10-10-23-57-51.jpg?1570773878
 aside:
   toc: true
-# article_header:
-#   type: cover
-#   image:
-#     src: /assets/images/cover1.jpg
+article_header:
+  type: cover
+  image:
+    src: https://cdnb.artstation.com/p/assets/images/images/021/205/435/large/sebastian-kopacz-hypocycloid-2019-10-11-00-28-33.jpg?1570775407
 ---
 
 Collection of assignments I did well on for the _modeling_ course (Computer Science 589 at the University of Calgary) I am taking in fall 2019.
 
 <!--more-->
+
+##### Links to additional pictures on my ArtStation
+- [Hypocycloid](https://www.artstation.com/artwork/A9n3lo)
 
 #### [Source code](https://github.com/Beskamir/Hypocycloid)
 
@@ -36,14 +39,23 @@ Collection of assignments I did well on for the _modeling_ course (Computer Scie
 
 
 ### Screenshots
-<!-- <img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="800" />
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="800" />
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="800" />
-<img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="800" /> -->
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/205/435/large/sebastian-kopacz-hypocycloid-2019-10-11-00-28-33.jpg?1570775407" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/205/393/large/sebastian-kopacz-hypocycloid-2019-10-11-00-23-47.jpg?1570775055" width="800" />
+<img src="https://cdna.artstation.com/p/assets/images/images/021/205/240/large/sebastian-kopacz-hypocycloid-2019-10-11-00-05-38.jpg?1570774078" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/205/433/large/sebastian-kopacz-hypocycloid-2019-10-11-00-27-14.jpg?1570775402" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/205/187/large/sebastian-kopacz-hypocycloid-2019-10-10-23-46-44.jpg?1570773876" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/205/199/large/sebastian-kopacz-2019-10-10-23-56-30.jpg?1570773886" width="800" /> 
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/204/693/large/sebastian-kopacz-hypocycloid-2019-09-28-18-40-20.jpg?1570771411" width="800" />
+<img src="https://cdna.artstation.com/p/assets/images/images/021/205/188/large/sebastian-kopacz-hypocycloid-2019-10-10-23-57-30.jpg?1570773875" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/205/191/large/sebastian-kopacz-2019-10-10-23-57-51.jpg?1570773878" width="800" />
+<img src="https://cdna.artstation.com/p/assets/images/images/021/205/194/large/sebastian-kopacz-2019-10-10-23-58-13.jpg?1570774287" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/205/437/large/sebastian-kopacz-hypocycloid-2019-10-11-00-29-36.jpg?1570775412" width="800" />
 
 ### Videos
 
-<iframe width="375" height="450" src="https://www.youtube.com/embed/kY9ezw0RxmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <iframe width="375" height="450" src="https://www.youtube.com/embed/kPbaJXxvwCQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="725" height="425"  src="https://www.youtube.com/embed/580C-mxMfKY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="360" height="450" src="https://www.youtube.com/embed/kY9ezw0RxmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <iframe width="360" height="450" src="https://www.youtube.com/embed/kPbaJXxvwCQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Credits
 - [OpenGL Template/Boilerplate as provided by Mia MacTavish (the TA for the course)](https://pages.cpsc.ucalgary.ca/~mmactavi/589/)
