@@ -19,7 +19,11 @@ Collection of assignments I did well on for the _modeling_ course (Computer Scie
 ##### Links to additional pictures on my ArtStation
 - [Hypocycloid](https://www.artstation.com/artwork/A9n3lo)
 
-#### [Source code](https://github.com/Beskamir/Hypocycloid)
+##### Links to source code and compiled versions
+- Hypocycloid
+  - [Source code](https://github.com/Beskamir/Hypocycloid)
+  - [Compiled for 64 bit Windows 10](https://github.com/Beskamir/Hypocycloid/releases/tag/1.0)
+- B-Spline Curve (wip/next assignment)
 
 # Hypocycloid
 
@@ -36,7 +40,6 @@ Collection of assignments I did well on for the _modeling_ course (Computer Scie
       - Inner circle outline.
       - Dot indicating where the curve is being drawn.
    - Option to draw a coordinate dependent polynomial curve $$(Q(u)=P_0 + P_1u + P_2u^2, 0 \le u \le 1 )$$ which demonstrates what happens when the weights of a curve do not sum to one.
-
 
 ### Screenshots
 <img src="https://cdnb.artstation.com/p/assets/images/images/021/205/187/large/sebastian-kopacz-hypocycloid-2019-10-10-23-46-44.jpg?1570773876" width="800" />
@@ -55,9 +58,11 @@ Collection of assignments I did well on for the _modeling_ course (Computer Scie
 <iframe width="360" height="450" src="https://www.youtube.com/embed/kY9ezw0RxmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <iframe width="360" height="450" src="https://www.youtube.com/embed/kPbaJXxvwCQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Credits
-- [OpenGL Template/Boilerplate as provided by Mia MacTavish (the TA for the course)](https://pages.cpsc.ucalgary.ca/~mmactavi/589/)
+- [OpenGL Template](https://pages.cpsc.ucalgary.ca/~mmactavi/589/) provided to us by Mia MacTavish (the TA for the course)
 
 ---
 
-# To be updated
+# B-Spline Curve
+To be updated once I finish the next assignment
 
+--- 
