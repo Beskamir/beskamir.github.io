@@ -7,30 +7,30 @@ aside:
   toc: true
 ---
 
-# Introduction:
+# Introduction
 
 Hello there, I'm Sebastian Kopacz (in case my name being plastered everywhere on this site didn't give that away) and I'm currently in my last year at the University of Calgary studying computer science and psychology. My professional interests are mainly focused on computer graphics although I also like anything related to neuroscience, game development, AI and robotics. 
 
-## Contact me:
+## Contact me
 
 The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com) and if you wish to see more of my work find me on [ArtStation](https://www.artstation.com/beskamir), [GitHub](https://github.com/Beskamir) or [YouTube](https://www.youtube.com/channel/UCQ3GtOxTGVyRV8awtzV0IPg). Otherwise I try to stay away from social media so don't expect to find me on LinkedIn or Facebook and the social media that I do have I'm usually really inactive on such as Twitter.
 
 ---
 
 
-# Formal Education:
+# Formal Education
 
-## Bachelor of Science:
+## Bachelor of Science
   - Computer Science (2015-2020)
   - Psychology (2015-2020)
 
 ---
 
-# Technical Skills:
+# Technical Skills
 
-## Computer Science:
+## Computer Science
 
-### Languages:
+### Languages
 - C++
   - Favorite language.
   - Usually used it for graphics assignments & projects.
@@ -53,7 +53,7 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com) a
 - Java
   - I hate Java with a passion but I technically know the language thanks to several courses using it.
 
-### APIs:
+### APIs
 - OpenGL - Most of my graphics assignments & projects were written using OpenGL.
 - Blender - I wrote scripts to help me make art.
 - Vulkan - Used Vulkan to make use of Nvidia's RTX technology for ray tracing.
@@ -62,7 +62,7 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com) a
 - CHAI3D - My haptics assignments were all done using CHAI3D.
 - Unreal Engine 4 - Used CHAI3D as a driver to integrated haptics into UE4.
 
-### Tools:
+### Tools
 - JetBrains IDEs
   - CLion
   - IntelliJ
@@ -77,7 +77,7 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com) a
   - Nano
   - Vi
 
-### Experience:
+### Experience
 - Learned programming (Python) in summer of 2015. 
 - Worked on dozens of programming assignments and projects throughout my degree.
 - Various personal projects ranging from simple scripts to full projects.
@@ -86,9 +86,9 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com) a
 
 ---
 
-## Art:
+## Art
 
-### Workflows:
+### Workflows
 - Modeling using Blender:
   - Meshes with various modifiers.
   - Parametric modeling using curves and surfaces.
@@ -102,13 +102,13 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com) a
 - Rendering and compositing/post-processing within Blender or Photoshop.
 - Exporting for use in other renderers (games, mods, etc) or 3D printing.
 
-### Tools:
+### Tools
 - Blender
 - Photoshop
 - Unreal Engine 4
 - Unity
 
-### Experience:
+### Experience
 - Started with Blender sometime around 2011 to 2012.
 - Contributed 3D models to various modding teams.
 - Participated in Blender competitions.
@@ -120,7 +120,7 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com) a
 
 ---
 
-## Psychology:
+## Psychology
 
 ### Focus
 - Neuroscience
@@ -129,11 +129,11 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com) a
 - Cognition
 - Perception & Sensation
 
-### Tools:
+### Tools
 - SPSS for statistical analysis when necessary.
 - Preferred writing my own scripts for data processing and statistical analysis since it was less cumbersome.
 
-### Experience:
+### Experience
 - Lab work with *Sprague Dawley* rats as part of a course.
   - Ran various behavioral assessments.
   - Wrote lab reports analyzing those assessments.
@@ -144,22 +144,22 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com) a
 
 ---
 
-## General:
+## General
 
-### Languages:
+### Languages
 - Fully fluent in English.
 - Verbally fluent in Polish.
 
-### Math:
+### Math
 - Very comfortable with most linear algebra topics needed for computer graphics.
 - Okay with calculus, statistics, logic, and discrete mathematics.
 - Aware of differential equations and topology.
 
 --- 
 
-# Interests:
+# Interests
 
-## Professional:
+## Professional
 - Computer graphics
 - Procedural generation
 - Artificial intelligence
@@ -169,7 +169,7 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com) a
 - Digital haptics
 - Human computer interaction
 
-## Hobby:
+## Hobby
 - Playing & modding games
 - Creating digital 3D art
 - 3D printing
