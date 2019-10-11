@@ -39,8 +39,8 @@ Collection of assignments I did well on for the _modeling_ course (Computer Scie
 
 
 ### Screenshots
-<img src="https://cdnb.artstation.com/p/assets/images/images/021/205/433/large/sebastian-kopacz-hypocycloid-2019-10-11-00-27-14.jpg?1570775402" width="800" />
 <img src="https://cdnb.artstation.com/p/assets/images/images/021/205/187/large/sebastian-kopacz-hypocycloid-2019-10-10-23-46-44.jpg?1570773876" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/205/433/large/sebastian-kopacz-hypocycloid-2019-10-11-00-27-14.jpg?1570775402" width="800" />
 <img src="https://cdnb.artstation.com/p/assets/images/images/021/205/199/large/sebastian-kopacz-2019-10-10-23-56-30.jpg?1570773886" width="800" /> 
 <img src="https://cdnb.artstation.com/p/assets/images/images/021/204/693/large/sebastian-kopacz-hypocycloid-2019-09-28-18-40-20.jpg?1570771411" width="800" />
 <img src="https://cdna.artstation.com/p/assets/images/images/021/205/188/large/sebastian-kopacz-hypocycloid-2019-10-10-23-57-30.jpg?1570773875" width="800" />
