@@ -46,7 +46,7 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com) a
 - ARM Assembly (v7 and v8)
   - In a group of 2 I wrote a clone of the original Super Mario Bros. game using ARMv7 assembly.
     - Also wrote the driver let the Raspberry Pi 2 Model B we were using talk with a NES controller. 
-  - Also wrote several other less flash assignments in the two courses which taught this language.
+  - Also wrote several other less flash assignments in the two courses which taught these languages.
 - Haskell
   - Learned it when learning about functional programming.
   - Functional programming concepts stayed with me but I don't remember Haskell too well. 
