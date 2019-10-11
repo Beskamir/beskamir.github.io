@@ -2,7 +2,7 @@
 layout: article
 title: Computer Graphics Modeling Assignments
 key: 20190930
-permalink: /projects/modeling-project
+permalink: /projects/modeling-assignments
 # cover: https://cdnb.artstation.com/p/assets/images/images/017/564/095/large/sebastian-kopacz-template-2019-04-28-20-12-27.jpg?1556505732
 aside:
   toc: true
@@ -42,6 +42,8 @@ Collection of assignments I did well on for the _modeling_ course (Computer Scie
 <img src="https://cdna.artstation.com/p/assets/images/images/017/563/130/large/sebastian-kopacz-as-test.jpg?1556498758" width="800" /> -->
 
 ### Videos
+
+<iframe width="375" height="450" src="https://www.youtube.com/embed/kY9ezw0RxmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <iframe width="375" height="450" src="https://www.youtube.com/embed/kPbaJXxvwCQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Credits
 - [OpenGL Template/Boilerplate as provided by Mia MacTavish (the TA for the course)](https://pages.cpsc.ucalgary.ca/~mmactavi/589/)
