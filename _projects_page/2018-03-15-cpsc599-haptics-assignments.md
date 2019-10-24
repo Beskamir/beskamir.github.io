@@ -103,7 +103,7 @@ Default scene location.
 Images for the objects with procedurally created bump and friction textures.
 
 
-<img src="/assets/images/Projects/Haptics/Assignments/Scales_colour.jpg" width="265" /> <img src="/assets/images/Projects/Haptics/Assignments/Scales_height.jpg" width="265" /> <img src="/assets/images/Projects/Haptics/Assignments/Scales_rough.jpg" width="265" />
+<img src="/assets/images/Projects/Haptics/Assignments/Scales_colour.jpg" width="265" /> <img src="/assets/images/Projects/Haptics/Assignments/Scales_height.jpg" width="265" /> <img src="/assets/images/Projects/Haptics/Assignments/Scales_rough.png" width="265" />
 Example material that felt really nice (ordering: diffuse, height, roughness).
 
 ### Workspace Management
