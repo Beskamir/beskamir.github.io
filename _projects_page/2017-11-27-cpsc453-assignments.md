@@ -2,7 +2,7 @@
 layout: article
 title: Intro to Computer Graphics Coursework
 key: 20171127
-permalink: /projects/Intro-to-Graphics
+permalink: /projects/intro-to-graphics
 cover: https://cdna.artstation.com/p/assets/images/images/014/259/400/large/sebastian-kopacz-custom.jpg?1543234486
 aside:
   toc: true

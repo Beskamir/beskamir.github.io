@@ -21,8 +21,13 @@ Course project for the _Rendering_ course (Computer Science 591 at the Universit
 ###### Source code is self-hosted on my home Git-Gogs server which is only accessible from my home network.
 
 --- 
+# Project Summary
 
-# Justification
+## Objective
+
+Learn the Vulkan basics and implement ray tracing that is accelerated by Nvidia's RTX hardware. 
+
+## Justification
 - Just seemed like the coolest project idea I could think of that didn't necessarily require a load of math.
 - It was a massive learning opportunity!
   - Went in not knowing Vulkan, came out at least knowing the basics.
@@ -32,7 +37,7 @@ Course project for the _Rendering_ course (Computer Science 591 at the Universit
 - Self-justification...
   - I bought a RTX2080 very shortly after launch and had to somehow justify the early adopter fee.
   
-# Features
+## Features
 - Normal Vulkan rasterization with z-fighting. 
   - This wasn't the main objective so I didn't care enough to fix it.
 - Ray tracing using RTX in Vulkan. 
@@ -40,6 +45,9 @@ Course project for the _Rendering_ course (Computer Science 591 at the Universit
 - Expected window options supported like resizing or minimizing the window are supported.
 - Can switch between rasterized and ray traced views.
 - User specified camera movement with the ability to unlock the mouse so you can take screenshots or resize the window.
+
+## Challenges
+- Learning Vulkan and how to implement RTX at the same time. 
 
 --- 
 
