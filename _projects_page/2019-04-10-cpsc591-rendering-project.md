@@ -55,29 +55,36 @@ Learn the Vulkan basics and implement ray tracing that is accelerated by Nvidia'
 
 ## Ray Tracing
 ### Final version
-<img src="https://cdnb.artstation.com/p/assets/images/images/017/564/095/large/sebastian-kopacz-template-2019-04-28-20-12-27.jpg?1556505732" width="800" />
-<img src="/assets/images/Projects/Rendering/Project/raytracerFinal(1).png" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/017/564/095/large/sebastian-kopacz-template-2019-04-28-20-12-27.jpg?1556505732" width="100%" />
+<img src="/assets/images/Projects/Rendering/Project/raytracerFinal(1).png" width="100%" />
 
 ### WIP renders
-<img src="/assets/images/Projects/Rendering/Project/raytracerFinal(2).png" width="800" />
-<img src="/assets/images/Projects/Rendering/Project/rayTracerTests(3).png" width="800" />
-<img src="/assets/images/Projects/Rendering/Project/rayTracerTests(1).png" width="800" />
+<img src="/assets/images/Projects/Rendering/Project/raytracerFinal(2).png" width="100%" />
+<img src="/assets/images/Projects/Rendering/Project/rayTracerTests(3).png" width="100%" />
+<img src="/assets/images/Projects/Rendering/Project/rayTracerTests(1).png" width="100%" />
 
 ## Rasterization
-<img src="https://cdna.artstation.com/p/assets/images/images/017/564/096/large/sebastian-kopacz-template-2019-04-28-20-12-37.jpg?1556504005" width="800" />
-<img src="/assets/images/Projects/Rendering/Project/rasterization(1).png" width="800" />
-<img src="/assets/images/Projects/Rendering/Project/rasterization(3).png" width="800" />
-<img src="/assets/images/Projects/Rendering/Project/rasterization(2).png" width="800" />
-<img src="/assets/images/Projects/Rendering/Project/rasterization(4).png" width="800" />
+<img src="https://cdna.artstation.com/p/assets/images/images/017/564/096/large/sebastian-kopacz-template-2019-04-28-20-12-37.jpg?1556504005" width="100%" />
+<img src="/assets/images/Projects/Rendering/Project/rasterization(1).png" width="100%" />
+<img src="/assets/images/Projects/Rendering/Project/rasterization(3).png" width="100%" />
+<img src="/assets/images/Projects/Rendering/Project/rasterization(2).png" width="100%" />
+<img src="/assets/images/Projects/Rendering/Project/rasterization(4).png" width="100%" />
 
 # Videos
 
 ## Ray Tracing
-<iframe width="775" height="475" src="https://www.youtube.com/embed/GeCFv7IaF_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="775" height="475" src="https://www.youtube.com/embed/5wluZLteb8c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="position:relative;padding-top:56.25%;">
+  <iframe src="https://www.youtube.com/embed/GeCFv7IaF_Y"  frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+</div>
+<div style="position:relative;padding-top:56.25%;">
+  <iframe src="https://www.youtube.com/embed/5wluZLteb8c"  frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+</div>
+
 
 ## Rasterization
-<iframe width="775" height="475" src="https://www.youtube.com/embed/TX_6Z4EneaE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="position:relative;padding-top:56.25%;">
+  <iframe src="https://www.youtube.com/embed/TX_6Z4EneaE"  frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+</div>
 
 ---
 

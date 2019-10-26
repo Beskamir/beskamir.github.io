@@ -38,10 +38,32 @@ Sadly I no longer have access to the Novint Falcon haptic devices used in this c
 
 ### Screenshots
 
-<img src="/assets/images/Projects/Haptics/Assignments/1 (2).png" width="400" /> <img src="/assets/images/Projects/Haptics/Assignments/1 (4).png" width="400" />
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:1px">
+        	    <img src="/assets/images/Projects/Haptics/Assignments/1 (2).png" width="100%"  /> 
+      	    </td>
+            <td style="padding:1px">
+            	<img src="/assets/images/Projects/Haptics/Assignments/1 (4).png" width="100%"  />
+             </td>
+        </tr>
+    </table>
+</div>
 Repulsive force fields left. Attractive force fields right.
 
-<img src="/assets/images/Projects/Haptics/Assignments/1 (1).png" width="400" /> <img src="/assets/images/Projects/Haptics/Assignments/1 (3).png" width="400" />
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:1px">
+        	    <img src="/assets/images/Projects/Haptics/Assignments/1 (1).png" width="100%" />
+      	    </td>
+            <td style="padding:1px">
+            	<img src="/assets/images/Projects/Haptics/Assignments/1 (3).png" width="100%" />
+             </td>
+        </tr>
+    </table>
+</div>
 Animated scene.
 
 ### Implementation Details
@@ -69,9 +91,33 @@ For the line I used the same reasoning as for the sphere magnet but ignored the 
 - Attempted to do the bonus which required multiple implicit surfaces to be joined together such that you could not push through where they met. 
 
 ### Screenshots
-<img src="/assets/images/Projects/Haptics/Assignments/2 (1).png" width="800" />
-<img src="/assets/images/Projects/Haptics/Assignments/2 (3).png" width="400" /> <img src="/assets/images/Projects/Haptics/Assignments/2 (4).png" width="400"/>
-<img src="/assets/images/Projects/Haptics/Assignments/2 (2).png" width="400" /> <img src="/assets/images/Projects/Haptics/Assignments/2 (5).png" width="400"/>
+
+<img src="/assets/images/Projects/Haptics/Assignments/2 (1).png" width="100%" />
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:1px">
+        	    <img src="/assets/images/Projects/Haptics/Assignments/2 (3).png" width="100%"  />
+      	    </td>
+            <td style="padding:1px">
+            	<img src="/assets/images/Projects/Haptics/Assignments/2 (4).png" width="100%" />
+             </td>
+        </tr>
+        <tr>
+    	    <td style="padding:1px">
+        	    <img src="/assets/images/Projects/Haptics/Assignments/2 (2).png" width="100%" />
+      	    </td>
+            <td style="padding:1px">
+            	<img src="/assets/images/Projects/Haptics/Assignments/2 (5).png" width="100%"/>
+             </td>
+        </tr>
+    </table>
+</div>
+<div id="image-table">
+    <table>
+
+    </table>
+</div>
 
 ### Friction Implementation
 
@@ -96,15 +142,8 @@ I check a flag for whether the cursor is moving or not. Then if it’s moving I 
   - Unfortunately, I cannot demo this as it requires a haptic device to move the scene.
 
 ### Screenshots
-<img src="/assets/images/Projects/Haptics/Assignments/3.jpg" width="800" />
+<img src="/assets/images/Projects/Haptics/Assignments/3.jpg" width="100%" />
 Default scene location.
-
-<img src="/assets/images/Projects/Haptics/Assignments/bumps.png" width="400" /> <img src="/assets/images/Projects/Haptics/Assignments/friction.jpg" width="400" />
-Images for the objects with procedurally created bump and friction textures.
-
-
-<img src="/assets/images/Projects/Haptics/Assignments/Scales_colour.jpg" width="265" /> <img src="/assets/images/Projects/Haptics/Assignments/Scales_height.jpg" width="265" /> <img src="/assets/images/Projects/Haptics/Assignments/Scales_rough.png" width="265" />
-Example material that felt really nice (ordering: diffuse, height, roughness).
 
 ### Workspace Management
 
@@ -151,13 +190,35 @@ void moveView(cVector3d position) {
   
 ### Screenshots
 
-<img src="/assets/images/Projects/Haptics/Assignments/4 (1).png" width="800" />
+<img src="/assets/images/Projects/Haptics/Assignments/4 (1).png" width="100%" />
 Pendulums made out of point masses and springs. The masses are 0.2, 2, 0.5, 0.5 kg and springs are 400, 4000, 200, 200 N/m and 10, 100, 1, 25 Ns/m respectively.
 
-<img src="/assets/images/Projects/Haptics/Assignments/4 (4).png" width="400" /> <img src="/assets/images/Projects/Haptics/Assignments/4 (3).png" width="400" />
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:1px">
+        	    <img src="/assets/images/Projects/Haptics/Assignments/4 (4).png" width="100%"  />
+      	    </td>
+            <td style="padding:1px">
+            	<img src="/assets/images/Projects/Haptics/Assignments/4 (3).png" width="100%"  />
+             </td>
+        </tr>
+    </table>
+</div>
 Deformable 2D mesh. Left shows cross springs disabled. Right shows cross springs enabled.
 
-<img src="/assets/images/Projects/Haptics/Assignments/4 (5).png" width="400" /> <img src="/assets/images/Projects/Haptics/Assignments/4 (2).png" width="400" />
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:1px">
+        	    <img src="/assets/images/Projects/Haptics/Assignments/4 (5).png" width="100%" />
+      	    </td>
+            <td style="padding:1px">
+            	<img src="/assets/images/Projects/Haptics/Assignments/4 (2).png" width="100%"  />
+             </td>
+        </tr>
+    </table>
+</div>
 Deformable 3D mesh. Left shows cross springs disabled. Right shows cross springs enabled.
 
 

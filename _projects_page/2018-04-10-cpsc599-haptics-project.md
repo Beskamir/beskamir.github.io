@@ -55,14 +55,16 @@ Implement haptics within Unreal Engine 4 using CHAI3D as a driver.
   
 # Demo
 ## Screenshot
-<img src="\assets\images\Projects\Haptics\Project\demo.png" width="800" />
+<img src="\assets\images\Projects\Haptics\Project\demo.png" width="100%" />
 Basically the final version except all the objects were made dynamic in the final scene and I added walls to keep the user from knocking stuff off into infinity.
 
-<img src="\assets\images\Projects\Haptics\Project\icon.png" width="800" />
+<img src="\assets\images\Projects\Haptics\Project\icon.png" width="100%" />
 UE4 generated icon for the project which somewhat shows off the final scene where everything except for the walls and floor was dynamic and could be thrown around with full haptics.
 
 ## Video
-<iframe width="775" height="450" src="https://www.youtube.com/embed/i4uZjRIw1SY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="position:relative;padding-top:56.25%;">
+  <iframe src="https://www.youtube.com/embed/i4uZjRIw1SY"  frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+</div>
 This was for the milestone presentation where I only got the haptic device hooked up as a controller and was not getting any haptic forces back to the device. 
 
 --- 

@@ -32,7 +32,7 @@ Collection of the 4 assignments I completed for the _Intro to Computer Graphics_
 - Draws first to tenth order Hilbert Curves using OpenGL's lines as well as by using thin triangles.
 
 ### 7th order Hilbert Curve
-<img src="https://cdnb.artstation.com/p/assets/images/images/014/276/469/large/sebastian-kopacz-assignment1-2018-11-26-23-06-56.jpg?1543298910" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/014/276/469/large/sebastian-kopacz-assignment1-2018-11-26-23-06-56.jpg?1543298910" width="100%" />
 
 ## Credits
 - Regarding the software implementation the following resources were invaluable: 
@@ -51,16 +51,16 @@ Collection of the 4 assignments I completed for the _Intro to Computer Graphics_
 
 
 ### All effects active
-<img src="https://cdnb.artstation.com/p/assets/images/images/014/257/939/large/sebastian-kopacz-bonusimage.jpg?1543232178" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/014/257/939/large/sebastian-kopacz-bonusimage.jpg?1543232178" width="100%"  />
 
 ### Original image
-<img src="https://cdnb.artstation.com/p/assets/images/images/014/258/571/large/sebastian-kopacz-tower.jpg?1543231507" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/014/258/571/large/sebastian-kopacz-tower.jpg?1543231507" width="100%"  />
 
 ### Grayscale
-<img src="https://cdnb.artstation.com/p/assets/images/images/014/258/845/large/sebastian-kopacz-greyscale.jpg?1543232531" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/014/258/845/large/sebastian-kopacz-greyscale.jpg?1543232531" width="100%"  />
 
 ### 2-bit image quantization
-<img src="https://cdnb.artstation.com/p/assets/images/images/014/276/275/large/sebastian-kopacz-2bit.jpg?1543297907" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/014/276/275/large/sebastian-kopacz-2bit.jpg?1543297907" width="100%"  />
 
 
 ## Credits
@@ -85,9 +85,20 @@ Collection of the 4 assignments I completed for the _Intro to Computer Graphics_
 - Phong lighting model using diffuse, specular and ambient occlusion textures.
   
 ### Scene demoing model viewer
-<img src="https://cdnb.artstation.com/p/assets/images/images/014/257/445/large/sebastian-kopacz-chessboard02.jpg?1543227840" width="800" /> <img src="https://cdna.artstation.com/p/assets/images/images/014/257/446/large/sebastian-kopacz-chessboard.jpg?1543226413" width="800" />
-
-  
+<div id="image-table">
+    <table>
+	    <tr>
+    	    <td style="padding:1px">
+        	    <img src="https://cdnb.artstation.com/p/assets/images/images/014/257/445/large/sebastian-kopacz-chessboard02.jpg?1543227840"  width="100%" />
+      	    </td>
+            <td style="padding:1px">
+            	<img src="https://cdna.artstation.com/p/assets/images/images/014/257/446/large/sebastian-kopacz-chessboard.jpg?1543226413" width="100%" />
+             </td>
+        </tr>
+    </table>
+</div>
+ 
+   
 ## Credits
 - All models and textures shown in the image were provided to us by the TA as part of the course.
 - Regarding the software implementation the following resources were invaluable: 
@@ -108,10 +119,10 @@ Collection of the 4 assignments I completed for the _Intro to Computer Graphics_
 - Supports basic OBJ features and models can be loaded with a config file.
   
 ### My custom scene
-<img src="https://cdna.artstation.com/p/assets/images/images/014/259/400/large/sebastian-kopacz-custom.jpg?1543234486" width="800" />
+<img src="https://cdna.artstation.com/p/assets/images/images/014/259/400/large/sebastian-kopacz-custom.jpg?1543234486" width="100%" />
 
 ### Default Cornell box
-<img src="https://cdnb.artstation.com/p/assets/images/images/014/259/407/large/sebastian-kopacz-default.jpg?1543234451" width="800" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/014/259/407/large/sebastian-kopacz-default.jpg?1543234451" width="100%" />
 
 ## Credits
 - All models either made by me or specified in the assignment description.

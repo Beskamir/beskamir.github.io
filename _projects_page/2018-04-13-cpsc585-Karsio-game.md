@@ -100,29 +100,32 @@ Battle royal driving game blended with growth mechanics based on [slither.io](ht
 
 ## Video
 
-<iframe width="775" height="425" src="https://www.youtube.com/embed/cg6CkGn4yRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="position:relative;padding-top:56.25%;">
+  <iframe src="https://www.youtube.com/embed/cg6CkGn4yRI"  frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+</div>
+
 For some reason audio wasn't recorded (and it may be copyrighted anyway) so for the full effect, get the game on GitHub and compile it yourself.
 
 ## Artwork
 
 ### Ingame Screenshots
-<img src="https://cdna.artstation.com/p/assets/images/images/021/123/064/large/sebastian-kopacz-2019-10-05-23-11-04.jpg?1570477476" width="800" />
-<img src="https://cdnb.artstation.com/p/assets/images/images/021/123/067/large/sebastian-kopacz-2019-10-05-20-36-31.jpg?1570477214" width="800" />
-<img src="https://cdna.artstation.com/p/assets/images/images/021/123/054/large/sebastian-kopacz-2019-10-05-20-36-41.jpg?1570477204" width="800" />
-<img src="https://cdnb.artstation.com/p/assets/images/images/021/123/059/large/sebastian-kopacz-2019-10-05-20-37-33.jpg?1570477206" width="800" />
-<img src="https://cdna.artstation.com/p/assets/images/images/021/123/062/large/sebastian-kopacz-2019-10-05-20-39-04.jpg?1570477209" width="800" />
-<img src="https://cdnb.artstation.com/p/assets/images/images/021/123/065/large/sebastian-kopacz-2019-10-05-20-39-36.jpg?1570477211" width="800" />
-<img src="https://cdna.artstation.com/p/assets/images/images/021/123/068/large/sebastian-kopacz-2019-10-05-20-39-51.jpg?1570477214" width="800" />
-<img src="https://cdnb.artstation.com/p/assets/images/images/021/123/061/large/sebastian-kopacz-2019-10-05-20-41-08.jpg?1570477209" width="800" />
-<img src="https://cdna.artstation.com/p/assets/images/images/021/123/056/large/sebastian-kopacz-2019-10-05-20-39-57.jpg?1570477473" width="800" />
-<img src="https://cdna.artstation.com/p/assets/images/images/021/123/058/large/sebastian-kopacz-2019-10-05-20-40-20.jpg?1570477207" width="800" />
+<img src="https://cdna.artstation.com/p/assets/images/images/021/123/064/large/sebastian-kopacz-2019-10-05-23-11-04.jpg?1570477476" width="100%" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/123/067/large/sebastian-kopacz-2019-10-05-20-36-31.jpg?1570477214" width="100%" />
+<img src="https://cdna.artstation.com/p/assets/images/images/021/123/054/large/sebastian-kopacz-2019-10-05-20-36-41.jpg?1570477204" width="100%" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/123/059/large/sebastian-kopacz-2019-10-05-20-37-33.jpg?1570477206" width="100%" />
+<img src="https://cdna.artstation.com/p/assets/images/images/021/123/062/large/sebastian-kopacz-2019-10-05-20-39-04.jpg?1570477209" width="100%" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/123/065/large/sebastian-kopacz-2019-10-05-20-39-36.jpg?1570477211" width="100%" />
+<img src="https://cdna.artstation.com/p/assets/images/images/021/123/068/large/sebastian-kopacz-2019-10-05-20-39-51.jpg?1570477214" width="100%" />
+<img src="https://cdnb.artstation.com/p/assets/images/images/021/123/061/large/sebastian-kopacz-2019-10-05-20-41-08.jpg?1570477209" width="100%" />
+<img src="https://cdna.artstation.com/p/assets/images/images/021/123/056/large/sebastian-kopacz-2019-10-05-20-39-57.jpg?1570477473" width="100%" />
+<img src="https://cdna.artstation.com/p/assets/images/images/021/123/058/large/sebastian-kopacz-2019-10-05-20-40-20.jpg?1570477207" width="100%" />
 
 ### Rukiya's Concept Art
-<img src="/assets/images/Projects/Karsio/CarAmour.png" width="800" />
-<img src="/assets/images/Projects/Karsio/Cars-2.png" width="800" />
-<img src="/assets/images/Projects/Karsio/CarScene1.png" width="800" />
-<img src="/assets/images/Projects/Karsio/CarScene2.png" width="800" />
-<img src="/assets/images/Projects/Karsio/Tech.png" width="800" />
-<img src="/assets/images/Projects/Karsio/Upgrades.png" width="800" />
+<img src="/assets/images/Projects/Karsio/CarAmour.png" width="100%" />
+<img src="/assets/images/Projects/Karsio/Cars-2.png" width="100%" />
+<img src="/assets/images/Projects/Karsio/CarScene1.png" width="100%" />
+<img src="/assets/images/Projects/Karsio/CarScene2.png" width="100%" />
+<img src="/assets/images/Projects/Karsio/Tech.png" width="100%" />
+<img src="/assets/images/Projects/Karsio/Upgrades.png" width="100%" />
 
 --- 
