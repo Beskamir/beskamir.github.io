@@ -7,7 +7,7 @@ aside:
   toc: true
 ---
 
-Used machine learning to automatically landmark 3D face scans for medical purposes
+Used machine learning to automatically landmark 3D face scans for medical purposes.
 
 <!--more-->
 
