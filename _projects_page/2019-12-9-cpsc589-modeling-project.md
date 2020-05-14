@@ -63,6 +63,9 @@ Left image uses marching cube surface reconstruction, right image uses voxels.
 <img src="\assets\images\Projects\Modeling\PointMarching.png" width="100%" />
 Marching cubes overlaid with point cloud.
 
+<img src="\assets\images\Projects\Modeling\BunnyMaps.png" width="100%" />
+The depth maps that were used to reconstruct the bunny model.
+
 ## Stanford Dragon
 <img src="\assets\images\Projects\Modeling\DragonMessy.png" width="100%" />
 Reconstruction sometimes results in noise as evident in the right images.
@@ -73,6 +76,8 @@ That noise sometimes results in non-manifold lines as evident in the left and mi
 <img src="\assets\images\Projects\Modeling\Dragon.png" width="100%" />
 Left image is reconstructed using marching cubes with automated cleanup while the right image uses voxels with automated cleanup.
 
+<img src="\assets\images\Projects\Modeling\DragonMaps.png" width="100%" />
+The depth maps that were used to reconstruct the dragon model.
 
 ## Extra Images
 <img src="\assets\images\Projects\Modeling\1.png" width="100%" />
