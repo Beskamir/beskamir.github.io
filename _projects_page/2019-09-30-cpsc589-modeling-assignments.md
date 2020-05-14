@@ -12,7 +12,7 @@ article_header:
     src: https://cdna.artstation.com/p/assets/images/images/024/469/288/large/sebastian-kopacz-eyeplus.jpg?1582537288
 ---
 
-Collection of assignments I did well on for the _modeling_ course (Computer Science 589 at the University of Calgary) I am taking in fall 2019.
+Collection of assignments with a programming component I made for the modeling course (Computer Science 589 at the University of Calgary) I took in fall 2019.
 
 <!--more-->
 
@@ -27,6 +27,8 @@ Collection of assignments I did well on for the _modeling_ course (Computer Scie
 - B-Spline Curve
   - [Source code](https://github.com/Beskamir/Bsplines)
   - [Compiled for 64 bit Windows 10](https://github.com/Beskamir/Bsplines/releases/tag/1.0)
+
+---
 
 # Hypocycloid
 

@@ -2,7 +2,7 @@
 layout: article
 title: Computer Graphics Research Project
 key: 20200424
-permalink: /projects/modeling-assignments
+permalink: /projects/graphics-research-project
 cover: 
 aside:
   toc: true
@@ -12,7 +12,7 @@ article_header:
     src: https://cdna.artstation.com/p/assets/images/images/024/469/288/large/sebastian-kopacz-eyeplus.jpg?1582537288
 ---
 
-Collection of assignments I did well on for the _modeling_ course (Computer Science 589 at the University of Calgary) I am taking in fall 2019.
+Course  well on for the modeling course (Computer Science 589 at the University of Calgary) I am taking in fall 2019.
 
 <!--more-->
 

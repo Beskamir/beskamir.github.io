@@ -12,7 +12,7 @@ article_header:
     src: https://cdnb.artstation.com/p/assets/images/images/017/564/095/large/sebastian-kopacz-template-2019-04-28-20-12-27.jpg?1556505732
 ---
 
-Course project for the _Rendering_ course (Computer Science 591 at the University of Calgary) I took in winter 2019 and where I implemented ray tracing that made use of Nvidia's RTX hardware through the Vulkan API.
+Course project for the Rendering course (Computer Science 591 at the University of Calgary) I took in winter 2019 and where I implemented ray tracing that made use of Nvidia's RTX hardware through the Vulkan API.
 
 <!--more-->
 

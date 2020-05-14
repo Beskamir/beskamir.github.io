@@ -11,6 +11,8 @@ Used machine learning to automatically landmark 3D face scans for medical purpos
 
 <!--more-->
 
+---
+
 # Justification
 
 - Thousands of unlabeled 3D scanned faces.

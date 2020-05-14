@@ -12,7 +12,7 @@ article_header:
     src: https://cdna.artstation.com/p/assets/images/images/017/563/162/large/sebastian-kopacz-wasteland.jpg?1556498859
 ---
 
-Collection of assignments I did well on for the _Rendering_ course (Computer Science 591 at the University of Calgary) I took in winter 2019.
+Various assignments I did for the Rendering course (Computer Science 591 at the University of Calgary) I took in winter 2019.
 
 <!--more-->
 

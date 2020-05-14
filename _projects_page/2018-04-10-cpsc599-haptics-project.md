@@ -12,7 +12,7 @@ article_header:
     src: assets\images\Projects\Haptics\Project\demo.png
 ---
 
-Course project for the *Computer Haptics* course (Computer Science 599.86 at the University of Calgary) I took in winter 2018. 
+Course project for the Computer Haptics course (Computer Science 599.86 at the University of Calgary) I took in winter 2018. 
 
 <!--more-->
 

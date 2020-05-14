@@ -12,7 +12,7 @@ article_header:
     src: /assets/images/Projects/Haptics/Assignments/4 (3).png
 ---
 
-Collection of assignments for the *Computer Haptics* course (Computer Science 599.86 at the University of Calgary) I took in winter 2018. 
+Collection of assignments for the Computer Haptics course (Computer Science 599.86 at the University of Calgary) I took in winter 2018. 
 
 <!--more-->
 

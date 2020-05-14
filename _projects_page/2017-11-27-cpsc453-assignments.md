@@ -12,7 +12,7 @@ article_header:
     src: https://cdnb.artstation.com/p/assets/images/images/014/257/445/large/sebastian-kopacz-chessboard02.jpg?1543227840
 ---
 
-Collection of the 4 assignments I completed for the _Intro to Computer Graphics_ course (Computer Science 453 at the University of Calgary) I took in fall 2017.
+Collection of the 4 assignments I completed for the Intro to Computer Graphics course (Computer Science 453 at the University of Calgary) I took in fall 2017.
 
 <!--more-->
 

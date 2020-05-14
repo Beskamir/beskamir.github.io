@@ -25,6 +25,8 @@ Collection of entries for Remington's 2018 simplicity challenge where the object
 
 ###### Source code is self-hosted on my home Git-Gogs server which is only accessible from my home network.
 
+--- 
+
 # Justification
 
 Grant Wilk from Remington Graphics (now Remington Creative), hosted a Blender competition where one of the challenges was to create a model using just Blender's object mode. As such modifying individual vertices was generally against the rules unless it was done through applying transformations within object mode. Despite overlooking that it was supposed to be just a single model and not a complete scene it was still really enjoyable since 3 of my entries gave me a reason to figure out Blender's API for scripting UI inputs.
