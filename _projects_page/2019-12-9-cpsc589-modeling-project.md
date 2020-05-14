@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Computer Graphics Modeling Assignments
+title: Computer Graphics Modeling Project
 key: 20191209
 permalink: /projects/modeling-project
 cover: assets\images\Projects\Modeling\5.png
