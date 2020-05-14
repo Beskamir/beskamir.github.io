@@ -1,9 +1,9 @@
 ---
 layout: article
-title: Computer Graphics Modeling Assignments
-key: 20190930
+title: Computer Graphics Research Project
+key: 20200424
 permalink: /projects/modeling-assignments
-cover: https://cdnb.artstation.com/p/assets/images/images/021/205/191/large/sebastian-kopacz-2019-10-10-23-57-51.jpg?1570773878
+cover: 
 aside:
   toc: true
 article_header:
