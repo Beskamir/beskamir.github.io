@@ -32,7 +32,7 @@ Group course project for the modeling course (Computer Science 589 at the Univer
   - Point cloud
   - Voxels
   - Marching cube reconstructed surface
-- Automated mesh cleanup to remove outlining data.
+- Automated mesh cleanup to remove outlier data.
 - Reasonable user interface allowed for generating models from within Blender.
 - Supported generated and manually drawn depth maps.
 
