@@ -3,98 +3,102 @@ layout: article
 title: Computer Graphics Research Project
 key: 20200424
 permalink: /projects/graphics-research-project
-cover: 
+cover: https://cdna.artstation.com/p/assets/images/images/026/720/716/large/sebastian-kopacz-lightingcompare.jpg?1589538133
 aside:
   toc: true
 article_header:
   type: cover
   image:
-    src: https://cdna.artstation.com/p/assets/images/images/024/469/288/large/sebastian-kopacz-eyeplus.jpg?1582537288
+    src: https://cdnb.artstation.com/p/assets/images/images/026/720/735/large/sebastian-kopacz-neurons-2020-04-08-14-22-08.jpg?1589538060
 ---
 
-Course  well on for the modeling course (Computer Science 589 at the University of Calgary) I am taking in fall 2019.
+Course project for the Rendering course (Computer Science 591 at the University of Calgary) I took in winter 2019 and where I implemented ray tracing that made use of Nvidia's RTX hardware through the Vulkan API.
 
 <!--more-->
 
-##### Links to additional pictures on my ArtStation
-- [Hypocycloid](https://www.artstation.com/artwork/A9n3lo)
-- [B-Spline Curve](https://www.artstation.com/artwork/XBvAJR)
+[ArtStation Link](https://www.artstation.com/artwork/zA0a0L)
 
-##### Links to source code and compiled versions
-- Hypocycloid
-  - [Source code](https://github.com/Beskamir/Hypocycloid)
-  - [Compiled for 64 bit Windows 10](https://github.com/Beskamir/Hypocycloid/releases/tag/1.0)
-- B-Spline Curve
-  - [Source code](https://github.com/Beskamir/Bsplines)
-  - [Compiled for 64 bit Windows 10](https://github.com/Beskamir/Bsplines/releases/tag/1.0)
+###### Source code is self-hosted on my home Git-Gogs server which is only accessible from my home network.
 
-# Hypocycloid
+--- 
+# Project Summary
 
+## Objective
+
+Learn the Vulkan basics and implement ray tracing that is accelerated by Nvidia's RTX hardware. 
+
+## Justification
+- Just seemed like the coolest project idea I could think of that didn't necessarily require a load of math.
+- It was a massive learning opportunity!
+  - Went in not knowing Vulkan, came out at least knowing the basics.
+  - This also translated to a better understanding of OpenGL and graphics APIs in general.
+  - Learned how to implement RTX.
+  - Got to experiment with RTX before it was supported by everything.
+- Self-justification...
+  - I bought a RTX2080 very shortly after launch and had to somehow justify the early adopter fee.
+  
 ## Features
-- Draws [hypocycloids](https://en.wikipedia.org/wiki/Hypocycloid) of any inner and outer circle radii.
-- User can change:
-   - Inner and outer circle radii.
-   - Resolution of the resulting curve.
-   - Speed at the curve is drawn. (How many vertices are generated before showing the curve to the user)
-   - Number of complete rotations of the curve.
-   - Color of the curve with the alpha value alpha value defining how much of the user defined rgb values should be interpolated with colors based on the coordinates of the curve's vertices.
-   - Enable/disable:
-      - Outer circle outline.
-      - Inner circle outline.
-      - Dot indicating where the curve is being drawn.
-   - Option to draw a coordinate dependent polynomial curve $$(Q(u)=P_0 + P_1u + P_2u^2, 0 \le u \le 1 )$$ which demonstrates what happens when the weights of a curve do not sum to one.
+- Normal Vulkan rasterization with z-fighting. 
+  - This wasn't the main objective so I didn't care enough to fix it.
+- Ray tracing using RTX in Vulkan. 
+  - Unfortunately only got direct lighting and simple shadows implemented.
+- Expected window options supported like resizing or minimizing the window are supported.
+- Can switch between rasterized and ray traced views.
+- User specified camera movement with the ability to unlock the mouse so you can take screenshots or resize the window.
 
-### Screenshots
-<img src="https://cdnb.artstation.com/p/assets/images/images/021/205/187/large/sebastian-kopacz-hypocycloid-2019-10-10-23-46-44.jpg?1570773876" width="100%" />
-<img src="https://cdnb.artstation.com/p/assets/images/images/021/205/433/large/sebastian-kopacz-hypocycloid-2019-10-11-00-27-14.jpg?1570775402" width="100%" />
-<img src="https://cdnb.artstation.com/p/assets/images/images/021/205/199/large/sebastian-kopacz-2019-10-10-23-56-30.jpg?1570773886" width="100%" /> 
-<img src="https://cdnb.artstation.com/p/assets/images/images/021/204/693/large/sebastian-kopacz-hypocycloid-2019-09-28-18-40-20.jpg?1570771411" width="100%" />
-<img src="https://cdna.artstation.com/p/assets/images/images/021/205/188/large/sebastian-kopacz-hypocycloid-2019-10-10-23-57-30.jpg?1570773875" width="100%" />
-<img src="https://cdnb.artstation.com/p/assets/images/images/021/205/191/large/sebastian-kopacz-2019-10-10-23-57-51.jpg?1570773878" width="100%" />
-<img src="https://cdna.artstation.com/p/assets/images/images/021/205/194/large/sebastian-kopacz-2019-10-10-23-58-13.jpg?1570774287" width="100%" />
-<img src="https://cdnb.artstation.com/p/assets/images/images/021/205/437/large/sebastian-kopacz-hypocycloid-2019-10-11-00-29-36.jpg?1570775412" width="100%" />
+## Challenges
+- Learning Vulkan and how to implement RTX at the same time. 
 
-### Videos
+--- 
+
+# Screenshots
+
+## Ray Tracing
+### Final version
+<img src="https://cdnb.artstation.com/p/assets/images/images/017/564/095/large/sebastian-kopacz-template-2019-04-28-20-12-27.jpg?1556505732" width="100%" />
+<img src="/assets/images/Projects/Rendering/Project/raytracerFinal(1).png" width="100%" />
+
+### WIP renders
+<img src="/assets/images/Projects/Rendering/Project/raytracerFinal(2).png" width="100%" />
+<img src="/assets/images/Projects/Rendering/Project/rayTracerTests(3).png" width="100%" />
+<img src="/assets/images/Projects/Rendering/Project/rayTracerTests(1).png" width="100%" />
+
+## Rasterization
+<img src="https://cdna.artstation.com/p/assets/images/images/017/564/096/large/sebastian-kopacz-template-2019-04-28-20-12-37.jpg?1556504005" width="100%" />
+<img src="/assets/images/Projects/Rendering/Project/rasterization(1).png" width="100%" />
+<img src="/assets/images/Projects/Rendering/Project/rasterization(3).png" width="100%" />
+<img src="/assets/images/Projects/Rendering/Project/rasterization(2).png" width="100%" />
+<img src="/assets/images/Projects/Rendering/Project/rasterization(4).png" width="100%" />
+
+# Videos
+
+## Ray Tracing
 <div style="position:relative;padding-top:56.25%;">
-  <iframe src="https://www.youtube.com/embed/580C-mxMfKY"  frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+  <iframe src="https://www.youtube.com/embed/GeCFv7IaF_Y"  frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+</div>
+<div style="position:relative;padding-top:56.25%;">
+  <iframe src="https://www.youtube.com/embed/5wluZLteb8c"  frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
 </div>
 
-<div style="position:relative;padding-top:56.25%;">
-  <iframe src="https://www.youtube.com/embed/kY9ezw0RxmU"  frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-</div>
-<div style="position:relative;padding-top:56.25%;">
-  <iframe src="https://www.youtube.com/embed/kPbaJXxvwCQ"  frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-</div>
 
-
-## Credits
-- [OpenGL Template](https://pages.cpsc.ucalgary.ca/~mmactavi/589/) provided to us by Mia MacTavish (the TA for the course)
+## Rasterization
+<div style="position:relative;padding-top:56.25%;">
+  <iframe src="https://www.youtube.com/embed/TX_6Z4EneaE"  frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+</div>
 
 ---
 
-# B-Spline Curve
+# Credits
+## Vulkan Resources
+- [Alexander Overvoorde's Vulkan-Tutorial](https://vulkan-tutorial.com/).
+- [Sascha Willems's Vulkan Examples and Demos](https://github.com/SaschaWillems/Vulkan).
+- [Vulkan API and Documentation](https://vulkan.lunarg.com/doc/view/latest/windows/apispec.html).
 
-## Features
-- Based on my assignment 1 code except I replaced the hypocycloid with B-splines.
-- Supports modeling:
-  - B-splines of any order.
-  - Nonuniform standard knot sequences.
-  - NURBS (Non-uniform rational basis spline).
-- Add/move/delete control points.
-- Individually show/hide any element. 
-- Edit knots and NURBS from the UI.
-- Show de Boor's algorithm as it computes the curve. 
+## RTX Resources
+- [Martin-Karl Lefrançois and Pascal Gautron's Vulkan RTX Tutorial on Nvidia's blog](https://developer.nvidia.com/rtx/raytracing/vkray).
+- [Sergii Kudlai's Vulkan RTX Tutorial](https://iorange.github.io/p01/HappyTriangle.html).
 
-### Screenshots
-<img src="https://cdna.artstation.com/p/assets/images/images/021/494/878/large/sebastian-kopacz-eyeclean.jpg?1571893582" width="100%" />
-<img src="https://cdna.artstation.com/p/assets/images/images/021/494/710/large/sebastian-kopacz-bsplines-2019-10-23-22-50-57.jpg?1571892787" width="100%" />
-<img src="https://cdna.artstation.com/p/assets/images/images/021/494/720/large/sebastian-kopacz-bsplines-2019-10-23-22-01-11.jpg?1571892730" width="100%" /> 
-<img src="https://cdna.artstation.com/p/assets/images/images/021/494/716/large/sebastian-kopacz-bsplines-2019-10-23-22-03-56.jpg?1571892726" width="100%" />
-<img src="https://cdna.artstation.com/p/assets/images/images/021/494/712/large/sebastian-kopacz-bsplines-2019-10-23-22-01-30.jpg?1571892722" width="100%" />
-<img src="https://cdnb.artstation.com/p/assets/images/images/021/494/715/large/sebastian-kopacz-2019-10-23-21-53-13.jpg?1571892724" width="100%" />
-<img src="https://cdnb.artstation.com/p/assets/images/images/021/494/717/large/sebastian-kopacz-2019-10-23-21-53-46.jpg?1571892726" width="100%" />
+## General Credits
+- The event system, logger, and window startup are all based on early versions of [Yan Chernikov's Hazel game engine](https://github.com/TheCherno/Hazel) since I was following his game engine series around the time of this project.
 
-## Credits
-- [OpenGL Template](https://pages.cpsc.ucalgary.ca/~mmactavi/589/) provided to us by Mia MacTavish (the TA for the course)
-
---- 
+---
