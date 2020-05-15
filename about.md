@@ -7,22 +7,17 @@ aside:
   toc: true
 ---
 
-# Introduction
+# Contact Me
 
-Hello there, I'm Sebastian Kopacz (in case my name being plastered everywhere on this site didn't give that away) and I'm currently in my last year at the University of Calgary studying computer science and psychology. My professional interests are mainly focused on computer graphics although I also like anything related to neuroscience, game development, AI and robotics. 
-
-## Contact me
-
-The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com) and if you wish to see more of my work find me on [ArtStation](https://www.artstation.com/beskamir), [GitHub](https://github.com/Beskamir) or [YouTube](https://www.youtube.com/channel/UCQ3GtOxTGVyRV8awtzV0IPg). Otherwise I try to stay away from social media so don't expect to find me on LinkedIn or Facebook and the social media that I do have I'm usually really inactive on such as Twitter.
+The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com). To see more of my work you can find me on [ArtStation](https://www.artstation.com/beskamir), [GitHub](https://github.com/Beskamir), [YouTube](https://www.youtube.com/channel/UCQ3GtOxTGVyRV8awtzV0IPg) or [Gumroad](https://gumroad.com/beskamir). Otherwise I try to stay away from social media so don't expect to see me on LinkedIn or Facebook.
 
 ---
 
-
 # Formal Education
 
-## Bachelor of Science
-  - Computer Science (2015-2020)
-  - Psychology (2015-2020)
+## Bachelor of Science (2015-2020)
+  - Combined degree in computer science and psychology
+    - With a concentration in computer graphics
 
 ---
 
@@ -51,7 +46,7 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com) a
   - Learned it when learning about functional programming.
   - Functional programming concepts stayed with me but I don't remember Haskell too well. 
 - Java
-  - I hate Java with a passion but I technically know the language thanks to several courses using it.
+  - I strongly dislike Java but I guess I technically know the language thanks to several courses using it and its similarity with C#.
 
 ### APIs
 - OpenGL - Most of my graphics assignments & projects were written using OpenGL.
