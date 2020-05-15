@@ -19,8 +19,8 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com). 
 # Formal Education
 
 ## Bachelor of Science at the University of Calgary (2015-2020)
-  - Combined degree in computer science and psychology
-    - With a concentration in computer graphics
+  - Combined degree in computer science and psychology.
+    - With a concentration in computer graphics.
 
 ---
 
@@ -30,12 +30,12 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com). 
 
 ### Languages
 - C++
-  - Favorite language.
+  - My favorite programming language.
   - Usually used it for graphics assignments & projects.
 - GLSL 
   - Likewise used for graphics assignments & projects.
 - Python
-  - Tolerable scripting language.
+  - Preferred scripting language.
   - First language I learned.
   - Wrote assignments, helper scripts, games, etc. using it.
 - C#
