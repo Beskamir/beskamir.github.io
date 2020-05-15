@@ -7,9 +7,7 @@ aside:
   toc: true
 ---
 
-Hello!
----
-I am Sebastian Kopacz and I mainly made this website for archiving all the cool projects and assignments I worked on during my undergraduate degree at the University of Calgary. 
+Hello, I am Sebastian Kopacz and I mainly made this website for archiving all the cool projects and assignments I worked on during my undergraduate degree at the University of Calgary. 
 
 ---
 # Contact Me
