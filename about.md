@@ -7,8 +7,11 @@ aside:
   toc: true
 ---
 
-Hello
+Hello!
+---
+I am Sebastian Kopacz and I mainly made this website for archiving all the cool projects and assignments I worked on during my undergraduate degree at the University of Calgary. 
 
+---
 # Contact Me
 
 The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com). To see more of my work you can find me on [ArtStation](https://www.artstation.com/beskamir), [GitHub](https://github.com/Beskamir), [YouTube](https://www.youtube.com/channel/UCQ3GtOxTGVyRV8awtzV0IPg) or [Gumroad](https://gumroad.com/beskamir). Otherwise I try to stay away from social media so don't expect to see me on LinkedIn or Facebook.
@@ -17,7 +20,7 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com). 
 
 # Formal Education
 
-## Bachelor of Science (2015-2020)
+## Bachelor of Science at the University of Calgary (2015-2020)
   - Combined degree in computer science and psychology
     - With a concentration in computer graphics
 
