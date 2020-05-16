@@ -12,11 +12,11 @@ article_header:
     src: https://cdnb.artstation.com/p/assets/images/images/026/720/735/large/sebastian-kopacz-neurons-2020-04-08-14-22-08.jpg?1589538060
 ---
 
-Course project for the Rendering course (Computer Science 591 at the University of Calgary) I took in winter 2019 and where I implemented ray tracing that made use of Nvidia's RTX hardware through the Vulkan API.
+Course project for the Project in Computer Graphics course (Computer Science 503.03 at the University of Calgary) I took in winter 2020 and where I upgraded the [RTX render engine I wrote last year](https://beskamir.github.io/projects/rendering-project) to support additional features such as ambient occlusion.
 
 <!--more-->
 
-[ArtStation Link](https://www.artstation.com/artwork/zA0a0L)
+[ArtStation Link](https://www.artstation.com/artwork/L2nRdk)
 
 ###### Source code is self-hosted on my home Git-Gogs server which is only accessible from my home network.
 
@@ -25,65 +25,83 @@ Course project for the Rendering course (Computer Science 591 at the University 
 
 ## Objective
 
-Learn the Vulkan basics and implement ray tracing that is accelerated by Nvidia's RTX hardware. 
+Apply my knowledge of Vulkan to improve neuron rendering in connectome visualizations with RTX ambient occlusion.
 
 ## Justification
-- Just seemed like the coolest project idea I could think of that didn't necessarily require a load of math.
-- It was a massive learning opportunity!
-  - Went in not knowing Vulkan, came out at least knowing the basics.
-  - This also translated to a better understanding of OpenGL and graphics APIs in general.
-  - Learned how to implement RTX.
-  - Got to experiment with RTX before it was supported by everything.
-- Self-justification...
-  - I bought a RTX2080 very shortly after launch and had to somehow justify the early adopter fee.
-  
+- Opportunity to reuse last year's rendering project.
+- Gain greater familiarity with RTX and the Vulkan API.
+- Combination of computer graphics, art, and neuroscience.
+- Improve existing connectome visualizations.
+
 ## Features
-- Normal Vulkan rasterization with z-fighting. 
-  - This wasn't the main objective so I didn't care enough to fix it.
-- Ray tracing using RTX in Vulkan. 
-  - Unfortunately only got direct lighting and simple shadows implemented.
-- Expected window options supported like resizing or minimizing the window are supported.
-- Can switch between rasterized and ray traced views.
-- User specified camera movement with the ability to unlock the mouse so you can take screenshots or resize the window.
+- Vulkan rasterizer with depth buffer.
+- Ray tracer supports:
+  - Direct Shadows.
+  - Ambient Occlusion.
+  - Diffuse Shading.
+- Can switch between rasterizer and ray tracer rendering modes.
+- User specified camera movement with the ability to disconnect the mouse to make screenshot taking easier.
+- Uses assimp for quickly loading models with many polygons.
+- Better/cleaner codebase than the previous version.
+- Also supports model transformations using push constants. 
+- Using a texture to encode the directions in which AO rays should be sent in.
 
 ## Challenges
-- Learning Vulkan and how to implement RTX at the same time. 
+- Various bugs such as accidentally destroying my acceleration structure buffer before it was finished copying and thus only being able to support about 5 thousand vertices... After resolving that bug, the ray tracer could easily support 50 million vertices.
+- Learning more about the Vulkan API.
+  - Push constants.
+  - Depth buffer.
+  - Not deleting the bottom level acceleration structure when it's still needed.
+  - Passing textures to the ray tracing shaders.
+  - etc.
+- Creating a texture that encodes the directions in which rays should be sent for computing AO.
+- Random vs Halton sequence for computing the directions in which AO rays should be sent. For some reason the Halton sequence created a repeating image texture so a random sequence was used instead.
 
 --- 
 
 # Screenshots
 
-## Ray Tracing
-### Final version
-<img src="https://cdnb.artstation.com/p/assets/images/images/017/564/095/large/sebastian-kopacz-template-2019-04-28-20-12-27.jpg?1556505732" width="100%" />
-<img src="/assets/images/Projects/Rendering/Project/raytracerFinal(1).png" width="100%" />
+## Final Neuron Visualization
+<img src="https://cdnb.artstation.com/p/assets/images/images/026/720/735/large/sebastian-kopacz-neurons-2020-04-08-14-22-08.jpg?1589538060" width="100%" />
+Neuron rendered with diffuse and ray traced ambient occlusion lighting.
 
-### WIP renders
-<img src="/assets/images/Projects/Rendering/Project/raytracerFinal(2).png" width="100%" />
-<img src="/assets/images/Projects/Rendering/Project/rayTracerTests(3).png" width="100%" />
-<img src="/assets/images/Projects/Rendering/Project/rayTracerTests(1).png" width="100%" />
+## Shading Comparison
+<img src="https://cdna.artstation.com/p/assets/images/images/026/720/716/large/sebastian-kopacz-lightingcompare.jpg?1589538133" width="100%" />
+Comparison of the various shading modes my render engine supported.
 
-## Rasterization
-<img src="https://cdna.artstation.com/p/assets/images/images/017/564/096/large/sebastian-kopacz-template-2019-04-28-20-12-37.jpg?1556504005" width="100%" />
-<img src="/assets/images/Projects/Rendering/Project/rasterization(1).png" width="100%" />
-<img src="/assets/images/Projects/Rendering/Project/rasterization(3).png" width="100%" />
-<img src="/assets/images/Projects/Rendering/Project/rasterization(2).png" width="100%" />
-<img src="/assets/images/Projects/Rendering/Project/rasterization(4).png" width="100%" />
+## Render Engine Comparison
+<img src="https://cdna.artstation.com/p/assets/images/images/026/720/724/large/sebastian-kopacz-enginecompare.jpg?1589538173" width="100%" />
+Ambient occlusion comparison between my render engine (labeled Vulkan) and Blender's Cycles render engine (labeled Blender). My render engine was using fewer samples but otherwise I tried to match it as closely as possible.
+
+## Effect of AO Ray Distance
+<img src="https://cdna.artstation.com/p/assets/images/images/026/720/722/large/sebastian-kopacz-distancecompare.jpg?1589537986" width="100%" />
+Comparison exploring the effect that ray distance has on ambient occlusion shading.
+
+## AO Sampling
+<img src="https://cdna.artstation.com/p/assets/images/images/026/720/720/large/sebastian-kopacz-samplecompare.jpg?1589537980" width="100%" />
+<img src="https://cdna.artstation.com/p/assets/images/images/026/721/182/large/sebastian-kopacz-performance.jpg?1589539108" width="100%" />
+The performance and visual impact of AO sampling without any denoising. As evident 32 samples is sufficient for a good enough effect at a high enough framerate on an RTX 2080.
+
+## RTX Shadows
+<img src="https://cdna.artstation.com/p/assets/images/images/026/721/680/large/sebastian-kopacz-neurons-2020-04-08-14-01-23.jpg?1589540449" width="100%" />
+<img src="https://cdna.artstation.com/p/assets/images/images/026/721/682/large/sebastian-kopacz-neurons-2020-04-08-16-22-21.jpg?1589540453" width="100%" />
+Unfortunately shadows detracted from neuron visualization. This is likely due to neuron's structure making shadows feel disconnected from the geometry casting them.
+
+## AO Direction Textures
+<img src="\assets\images\Projects\NeuronAO\SampleHemisphere.png" width="100%" />
+<img src="\assets\images\Projects\NeuronAO\SampleTextures.png" width="100%" />
+Due to time constraints I was unable to resolve why the Halton sequence resulted in an obviously repeating pattern. Instead I just used the image from the random sequence as it worked and time was a bit limited.
 
 # Videos
 
-## Ray Tracing
+## Existing Connectome Rendering
 <div style="position:relative;padding-top:56.25%;">
-  <iframe src="https://www.youtube.com/embed/GeCFv7IaF_Y"  frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-</div>
-<div style="position:relative;padding-top:56.25%;">
-  <iframe src="https://www.youtube.com/embed/5wluZLteb8c"  frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+  <iframe src="https://www.youtube.com/embed/PeyHKdmBpqY"  frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
 </div>
 
-
-## Rasterization
+## My Neuron Rendering
 <div style="position:relative;padding-top:56.25%;">
-  <iframe src="https://www.youtube.com/embed/TX_6Z4EneaE"  frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+  <iframe src="https://www.youtube.com/embed/1qnOz-2JF64"  frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
 </div>
 
 ---
@@ -97,8 +115,13 @@ Learn the Vulkan basics and implement ray tracing that is accelerated by Nvidia'
 ## RTX Resources
 - [Martin-Karl Lefrançois and Pascal Gautron's Vulkan RTX Tutorial on Nvidia's blog](https://developer.nvidia.com/rtx/raytracing/vkray).
 - [Sergii Kudlai's Vulkan RTX Tutorial](https://iorange.github.io/p01/HappyTriangle.html).
+- [Ambient occlusion based on Jakub Boksansky's RTAO project](https://github.com/boksajak/RTAO).
+
+## Neuron Dataset
+- [Neuron data from the Hemibrain connectome project](https://www.janelia.org/project-team/flyem/hemibrain).
+- [Neurons converted to OBJ files using the SWC Mesher Blender addon](https://github.com/mcellteam/swc_mesher).
 
 ## General Credits
-- The event system, logger, and window startup are all based on early versions of [Yan Chernikov's Hazel game engine](https://github.com/TheCherno/Hazel) since I was following his game engine series around the time of this project.
+- [The event system, logger, and window startup are all based on early versions of Yan Chernikov's Hazel game engine since that was what the previous version of this project was based on](https://github.com/TheCherno/Hazel).
 
 ---
