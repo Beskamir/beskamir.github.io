@@ -50,7 +50,10 @@ Group course project for the modeling course (Computer Science 589 at the Univer
 ### Credits
 - My excellent team members Chris and Cassandra.
 - [Blender API documentation](https://docs.blender.org/api/current/index.html).
-- Test models obtained from the [list of common 3D test models](https://en.wikipedia.org/wiki/List_of_common_3D_test_models).
+- [Test models obtained from the list of common 3D test models](https://en.wikipedia.org/wiki/List_of_common_3D_test_models).
+
+## Final Report
+[Link to the final report we had to write](\assets\papers\Projects\Modeling\CPSC 589 Final paper.pdf).
 
 ---
 

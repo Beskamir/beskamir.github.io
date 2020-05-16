@@ -58,7 +58,7 @@ Apply my knowledge of Vulkan to improve neuron rendering in connectome visualiza
 - Random vs Halton sequence for computing the directions in which AO rays should be sent. For some reason the Halton sequence created a repeating image texture so a random sequence was used instead.
 
 ## Final Report
-[Here's a link to the final report I wrote for the course](\assets\images\Projects\NeuronAO\SebastianKopacz-FinalReport.pdf).
+[Here's a link to the final report I wrote for the course](\assets\papers\Projects\NeuronAO\SebastianKopacz-FinalReport.pdf).
 
 --- 
 
