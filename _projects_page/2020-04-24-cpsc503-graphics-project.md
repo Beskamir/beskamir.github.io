@@ -95,6 +95,10 @@ Unfortunately shadows detracted from neuron visualization. This is likely due to
 <img src="\assets\images\Projects\NeuronAO\SampleTextures.png" width="100%" />
 Due to time constraints I was unable to resolve why the Halton sequence resulted in an obviously repeating pattern. Instead I just used the image from the random sequence as it worked and time was a bit limited.
 
+## Future Direction
+<img src="https://cdnb.artstation.com/p/assets/images/images/026/720/729/large/sebastian-kopacz-6.jpg?1589538020" width="100%" />
+The Fresnel node in Blender resulted in a nice effect that highlighted neuron edges really well and might improve neuron and therefore connectome visualizations.
+
 # Videos
 
 ## Existing Connectome Rendering
