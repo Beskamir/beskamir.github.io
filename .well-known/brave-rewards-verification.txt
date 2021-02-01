@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: beskamir.github.io
+Token: 79d0020f7131e649de06c3fa66135013e086ad15a69f406ae10ea32bb3719ee9
