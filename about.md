@@ -7,7 +7,7 @@ aside:
   toc: true
 ---
 
-Hello, I am Sebastian Kopacz and I mainly made this website for archiving all the cool projects and assignments I worked on during my undergraduate degree at the University of Calgary. 
+Hello, I am Sebastian Kopacz. I originally made this website to archive all the cool projects and assignments I worked on during my undergraduate degree at the University of Calgary. Since then however, this site sort of became my default portfolio despite the fact that I have been really terrible at keeping it updated with everything I have been working on.
 
 ---
 # Contact Me
@@ -29,57 +29,74 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com). 
 ## Computer Science
 
 ### Languages
+
+#### Proficient
 - C++
-  - My favorite programming language.
+  - My personal favorite programming language of choice.
   - Usually used it for graphics assignments & projects.
+  - Currently using it for indie game development.
 - GLSL 
   - Likewise used for graphics assignments & projects.
 - Python
   - Preferred scripting language.
-  - First language I learned.
-  - Wrote assignments, helper scripts, games, etc. using it.
+  - Lots of years of experience since it was the first language I learned and I still use it fairly regularly.
+  - Wrote many assignments, helper scripts, games, etc. with it.
 - C#
   - Preferred mid-level language.
   - Used this for several Human-Computer Interaction projects and assignments.
+  - Both UE and Flax use C# for their build systems so I've remained familiar with it.
+  - Flax also has a C# API but I prefer using the C++ API.
+
+#### Capable
 - ARM Assembly (v7 and v8)
   - In a group of 2 I wrote a clone of the original Super Mario Bros. game using ARMv7 assembly.
-    - Also wrote the driver let the Raspberry Pi 2 Model B we were using talk with a NES controller. 
+    - Also wrote the driver that let the Raspberry Pi 2 Model B we were using talk with a NES controller. 
   - Also wrote several other less flash assignments in the two courses which taught these languages.
 - Haskell
   - Learned it when learning about functional programming.
-  - Functional programming concepts stayed with me but I don't remember Haskell too well. 
+  - Functional programming concepts stayed with me but I don't remember Haskell too well.
 - Java
-  - I strongly dislike Java but I guess I technically know the language thanks to several courses using it and its similarity with C#.
+  - I dislike Java but I guess I technically know the language thanks to several courses using it and its similarity with C#.
 
 ### APIs
+
+#### Proficient
 - OpenGL - Most of my graphics assignments & projects were written using OpenGL.
 - Blender - I wrote scripts to help me make art.
 - Vulkan - Used Vulkan to make use of Nvidia's RTX technology for ray tracing.
+- Unreal Engine 5 - Star Dust started as an UE5 game before I switched to Flax.
+- Flax - A relatively recent game engine with elements of both Unity and UE in its overall design.
+
+#### Capable
 - PBRT - Most of my rendering assignments used the PBRT library.
 - Keras - The machine learning research I did in summer 2018 used the Keras library. 
 - CHAI3D - My haptics assignments were all done using CHAI3D.
 - Unreal Engine 4 - Used CHAI3D as a driver to integrated haptics into UE4.
 
 ### Tools
+
+#### Proficient
 - JetBrains IDEs
+  - Rider
   - CLion
   - IntelliJ
-  - Rider
-- Visual Studio
-- Visual Studio Code
+- VSCodium (open source version of Visual Studio Code)
 - SSH
   - PuTTY
   - WinSCP
-- Terminal editors (if necessary)
+
+#### Capable
+- Visual Studio
+- Terminal editors
   - Vim
   - Nano
-  - Vi
 
 ### Experience
 - Learned programming (Python) in summer of 2015. 
 - Worked on dozens of programming assignments and projects throughout my degree.
 - Various personal projects ranging from simple scripts to full projects.
 - Research position during the summer of 2018 where I was tasked with using machine learning to landmark faces for medical purposes.
+- Indie game development and other personal projects.
 - Refer to the projects section of this website for more details.
 
 ---
@@ -88,29 +105,31 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com). 
 
 ### Workflows
 - Modeling using Blender:
-  - Meshes with various modifiers.
+  - Semi-procedural modeling with mesh modifiers.
   - Parametric modeling using curves and surfaces.
-  - Procedural techniques.
-  - Particle systems.
 - Materials (shaders):
-  - Creating fully procedural materials with procedural textures within Blender.
-  - Baking those procedural textures to images for use outside of Blender.
-  - Dabbled in creating or tiling image textures using Quixel or Photoshop workflows.
-- Level or scene design in Blender and other engines.
-- Rendering and compositing/post-processing within Blender or Photoshop.
-- Exporting for use in other renderers (games, mods, etc) or 3D printing.
+  - Creating fully procedural materials with procedural textures within Blender or UE.
+  - Baking procedural textures made with Blender to texture images for use in other engines.
+- Level or scene design in Blender, UE, Unity, Flax, etc.
+- Rendering and compositing/post-processing systems.
+- Exporting models for use in game engines or 3D printing.
 
 ### Tools
+
+#### Proficient
 - Blender
-- Photoshop
-- Unreal Engine 4
+- Flax
+- Unreal Engine 5
+
+#### Capable
 - Unity
+- Photoshop
 
 ### Experience
 - Started with Blender sometime around 2011 to 2012.
-- Contributed 3D models to various modding teams.
-- Participated in Blender competitions.
-- 3D art executive for the Game Design Club at the University of Calgary from 2017 to 2020.
+- Contributed 3D models to several modding teams.
+- Participated and won a few Blender competitions.
+- 3D Art Executive for the Game Design Club at the University of Calgary from 2017 to 2020.
   - Provided teaching materials and assistance for creating 3D art.
   - Created 3D assets for the club's games.
   - Helped organize and plan what 3D assets needed to be completed.
@@ -144,6 +163,10 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com). 
 
 ## General
 
+### Citizenships
+- Canadian
+- Polish
+
 ### Languages
 - Fully fluent in English.
 - Verbally fluent in Polish.
@@ -160,20 +183,24 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com). 
 ## Professional
 - Computer graphics
 - Procedural generation
-- Artificial intelligence
-- Neuroscience
 - Game development
+- Neuroscience
 - Robotics
+- Artificial intelligence
 - Digital haptics
 - Human computer interaction
 
 ## Hobby
-- Playing & modding games
+- Spending time with friends & family
+- Playing with my dogs
+- Working on personal projects
 - Creating digital 3D art
 - 3D printing
+- Gardening
+- Baking
+- Playing & modding games
+- Reading & writing fiction
 - Watching shows & movies
-- Reading fiction
 - Staying up to date with science & technology
-- Playing with my dogs
 
 ---
