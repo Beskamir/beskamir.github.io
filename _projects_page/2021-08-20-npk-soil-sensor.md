@@ -35,7 +35,7 @@ Make a durable and portable NPK sensor I can use in the garden.
 ## Challenges
 - Figuring out a portable power source delayed this project for years.
   - This is the reason why this project is currently unfinished.
-  - I have this solved now after finding a small and portable 12v power supply, but my interest in this project has since passed.
+  - I have this solved now after finding a small and portable 9v power supply, but my interest in this project has since passed.
 - The Arduino Nano I was using for this project had only a few KBs of memory.
   - Had to slim my code down to only what was absolutely necessary.
 - I discovered that the tutorial I was following made a mistake and only used one byte of data from a two byte value.
@@ -52,7 +52,7 @@ Make a durable and portable NPK sensor I can use in the garden.
 - Switching to an E-Ink display.
   - Much lower power consumption than an OLED.
   - Not as pretty, but that doesn't matter for this project.
-- Finally get around to actually wiring up the portable 12v battery and designing a new enclosure so that this project can be considered finished.
+- Finally get around to actually wiring up the portable 9v battery and designing a new enclosure so that this project can be considered finished.
 
 --- 
 
