@@ -204,3 +204,9 @@ The best way of contacting me is by [email](mailto:sebastianvkopacz@gmail.com). 
 - Staying up to date with science & technology
 
 ---
+
+# GDPR Authorization
+
+I authorize the processing of my personal data pursuant to Legislative Decree 101/2018 and art. 13 GDPR (EU Regulation 2016/679) for the purposes of personnel research and selection.
+
+---
