@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Haptics Assignments
+title: 3D Haptic Assignments
 key: 20180315
 permalink: /projects/haptics-assignments
 cover: /assets/images/Projects/Haptics/Assignments/4 (3).png

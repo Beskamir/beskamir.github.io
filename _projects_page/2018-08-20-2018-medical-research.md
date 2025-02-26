@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Summer Research
+title: Summer Research - Machine Learning
 key: 20180920
 permalink: /projects/medical-2018
 aside:

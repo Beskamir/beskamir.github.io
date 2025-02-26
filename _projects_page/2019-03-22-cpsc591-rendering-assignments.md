@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Computer Graphics Rendering Assignments
+title: Raytracing and Deferred Render Engine
 key: 20190322
 permalink: /projects/rendering-assignments
 cover: https://cdna.artstation.com/p/assets/images/images/017/563/376/large/sebastian-kopacz-starsonly-5.jpg?1556500064

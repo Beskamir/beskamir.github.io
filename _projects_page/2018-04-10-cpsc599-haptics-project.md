@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Haptics Project
+title: Haptics Project - Unreal Engine 4 Plugin
 key: 20180410
 permalink: /projects/haptics-project
 cover: assets\images\Projects\Haptics\Project\icon.png

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Computer Graphics Research Project
+title: RTX Render Engine 2.0 - Practical Application
 key: 20200424
 permalink: /projects/graphics-research-project
 cover: https://cdna.artstation.com/p/assets/images/images/026/720/716/large/sebastian-kopacz-lightingcompare.jpg?1589538133

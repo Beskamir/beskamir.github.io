@@ -1,6 +1,6 @@
 ---
 layout: article
-title: RTX Rendering Project
+title: RTX Render Engine 1.0 - Learning Vulkan
 key: 20190410
 permalink: /projects/rendering-project
 cover: https://cdnb.artstation.com/p/assets/images/images/017/564/095/large/sebastian-kopacz-template-2019-04-28-20-12-27.jpg?1556505732
