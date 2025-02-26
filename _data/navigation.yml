@@ -7,13 +7,6 @@ header:
       en-AU   : *EN
     url: /projects
 
-  - titles:
-      en      : &EN       Teaching
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-    url: /teaching
 
   - titles:
       en      : &EN       About

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Karsio Engine and Game
+title: Karsio OpenGL Engine and Game
 key: 20180413
 permalink: /projects/karsio
 cover: https://cdna.artstation.com/p/assets/images/images/021/123/064/large/sebastian-kopacz-2019-10-05-23-11-04.jpg?1570477476

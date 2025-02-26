@@ -1,6 +1,6 @@
 ---
 layout: article
-title: NPK Soil Sensor - Unfinished
+title: Portable NPK Soil Sensor - Unfinished
 key: 20210820
 permalink: /projects/npk-soil-sensor
 cover: "/assets/images/Projects/NPKSensor/Icon.jpg"
