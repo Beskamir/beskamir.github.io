@@ -1,6 +1,6 @@
 ---
 layout: article
-titles: About
+titles: Resume
 key: page-about
 permalink: /about
 aside:

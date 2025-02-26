@@ -9,7 +9,7 @@ header:
 
 
   - titles:
-      en      : &EN       About
+      en      : &EN       Resume
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
